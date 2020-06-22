@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-x96max.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/rc/keymaps/rc-x96max.ko drivers/media/rc/keymaps/rc-x96max.o drivers/media/rc/keymaps/rc-x96max.mod.o;  true

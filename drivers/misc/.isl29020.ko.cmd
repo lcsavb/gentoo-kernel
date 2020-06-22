@@ -1,0 +1,1 @@
+cmd_drivers/misc/isl29020.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/misc/isl29020.ko drivers/misc/isl29020.o drivers/misc/isl29020.mod.o;  true

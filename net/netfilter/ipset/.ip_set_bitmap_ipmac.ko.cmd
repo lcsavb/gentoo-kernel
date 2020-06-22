@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipset/ip_set_bitmap_ipmac.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/netfilter/ipset/ip_set_bitmap_ipmac.ko net/netfilter/ipset/ip_set_bitmap_ipmac.o net/netfilter/ipset/ip_set_bitmap_ipmac.mod.o;  true

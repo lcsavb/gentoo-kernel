@@ -1,0 +1,1 @@
+cmd_drivers/misc/eeprom/ee1004.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/misc/eeprom/ee1004.ko drivers/misc/eeprom/ee1004.o drivers/misc/eeprom/ee1004.mod.o;  true

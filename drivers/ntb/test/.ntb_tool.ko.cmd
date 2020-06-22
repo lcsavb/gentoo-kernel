@@ -1,0 +1,1 @@
+cmd_drivers/ntb/test/ntb_tool.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/ntb/test/ntb_tool.ko drivers/ntb/test/ntb_tool.o drivers/ntb/test/ntb_tool.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/dell-wmi-aio.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/platform/x86/dell-wmi-aio.ko drivers/platform/x86/dell-wmi-aio.o drivers/platform/x86/dell-wmi-aio.mod.o;  true

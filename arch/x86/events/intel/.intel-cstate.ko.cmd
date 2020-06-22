@@ -1,0 +1,1 @@
+cmd_arch/x86/events/intel/intel-cstate.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o arch/x86/events/intel/intel-cstate.ko arch/x86/events/intel/intel-cstate.o arch/x86/events/intel/intel-cstate.mod.o;  true

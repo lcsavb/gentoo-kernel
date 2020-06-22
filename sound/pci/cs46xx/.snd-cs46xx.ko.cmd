@@ -1,0 +1,1 @@
+cmd_sound/pci/cs46xx/snd-cs46xx.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/pci/cs46xx/snd-cs46xx.ko sound/pci/cs46xx/snd-cs46xx.o sound/pci/cs46xx/snd-cs46xx.mod.o;  true

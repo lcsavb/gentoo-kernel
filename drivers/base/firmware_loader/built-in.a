@@ -1,0 +1,70 @@
+!<thin>
+//                                              1260      `
+main.o/
+builtin/amdgpu/navi10_asd.bin.gen.o/
+builtin/amdgpu/navi10_ce.bin.gen.o/
+builtin/amdgpu/navi10_gpu_info.bin.gen.o/
+builtin/amdgpu/navi10_me.bin.gen.o/
+builtin/amdgpu/navi10_mec2.bin.gen.o/
+builtin/amdgpu/navi10_mec.bin.gen.o/
+builtin/amdgpu/navi10_pfp.bin.gen.o/
+builtin/amdgpu/navi10_rlc.bin.gen.o/
+builtin/amdgpu/navi10_sdma1.bin.gen.o/
+builtin/amdgpu/navi10_sdma.bin.gen.o/
+builtin/amdgpu/navi10_smc.bin.gen.o/
+builtin/amdgpu/navi10_sos.bin.gen.o/
+builtin/amdgpu/navi10_ta.bin.gen.o/
+builtin/amdgpu/navi10_vcn.bin.gen.o/
+builtin/amdgpu/navi14_asd.bin.gen.o/
+builtin/amdgpu/navi14_ce.bin.gen.o/
+builtin/amdgpu/navi14_ce_wks.bin.gen.o/
+builtin/amdgpu/navi14_gpu_info.bin.gen.o/
+builtin/amdgpu/navi14_me.bin.gen.o/
+builtin/amdgpu/navi14_mec2.bin.gen.o/
+builtin/amdgpu/navi14_mec2_wks.bin.gen.o/
+builtin/amdgpu/navi14_mec.bin.gen.o/
+builtin/amdgpu/navi14_mec_wks.bin.gen.o/
+builtin/amdgpu/navi14_me_wks.bin.gen.o/
+builtin/amdgpu/navi14_pfp.bin.gen.o/
+builtin/amdgpu/navi14_pfp_wks.bin.gen.o/
+builtin/amdgpu/navi14_rlc.bin.gen.o/
+builtin/amdgpu/navi14_sdma1.bin.gen.o/
+builtin/amdgpu/navi14_sdma.bin.gen.o/
+builtin/amdgpu/navi14_smc.bin.gen.o/
+builtin/amdgpu/navi14_sos.bin.gen.o/
+builtin/amdgpu/navi14_ta.bin.gen.o/
+builtin/amdgpu/navi14_vcn.bin.gen.o/
+/0              0           0     0     644     34368     `
+/8              0           0     0     644     149232    `
+/45             0           0     0     644     264560    `
+/81             0           0     0     644     2056      `
+/123            0           0     0     644     264688    `
+/159            0           0     0     644     269856    `
+/197            0           0     0     644     269856    `
+/234            0           0     0     644     264688    `
+/271            0           0     0     644     45232     `
+/308            0           0     0     644     35064     `
+/347            0           0     0     644     35056     `
+/385            0           0     0     644     269240    `
+/422            0           0     0     644     185744    `
+/459            0           0     0     644     30704     `
+/495            0           0     0     644     459120    `
+/532            0           0     0     644     149232    `
+/569            0           0     0     644     264560    `
+/605            0           0     0     644     264576    `
+/645            0           0     0     644     2056      `
+/687            0           0     0     644     264688    `
+/723            0           0     0     644     269856    `
+/761            0           0     0     644     269872    `
+/803            0           0     0     644     269856    `
+/840            0           0     0     644     269872    `
+/881            0           0     0     644     264704    `
+/921            0           0     0     644     264688    `
+/958            0           0     0     644     264704    `
+/999            0           0     0     644     43992     `
+/1036           0           0     0     644     35064     `
+/1075           0           0     0     644     35056     `
+/1113           0           0     0     644     265856    `
+/1150           0           0     0     644     173120    `
+/1187           0           0     0     644     30704     `
+/1223           0           0     0     644     459120    `

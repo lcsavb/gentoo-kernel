@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipvs/ip_vs_mh.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/netfilter/ipvs/ip_vs_mh.ko net/netfilter/ipvs/ip_vs_mh.o net/netfilter/ipvs/ip_vs_mh.mod.o;  true

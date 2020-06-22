@@ -1,0 +1,1 @@
+cmd_lib/reed_solomon/reed_solomon.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o lib/reed_solomon/reed_solomon.ko lib/reed_solomon/reed_solomon.o lib/reed_solomon/reed_solomon.mod.o;  true

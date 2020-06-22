@@ -1,0 +1,1 @@
+cmd_drivers/thermal/intel/int340x_thermal/processor_thermal_device.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/thermal/intel/int340x_thermal/processor_thermal_device.ko drivers/thermal/intel/int340x_thermal/processor_thermal_device.o drivers/thermal/intel/int340x_thermal/processor_thermal_device.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/boards/snd-soc-skl_hda_dsp.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o sound/soc/intel/boards/snd-soc-skl_hda_dsp.o sound/soc/intel/boards/skl_hda_dsp_generic.o sound/soc/intel/boards/skl_hda_dsp_common.o

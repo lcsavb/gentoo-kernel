@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-logitech-dj.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hid/hid-logitech-dj.ko drivers/hid/hid-logitech-dj.o drivers/hid/hid-logitech-dj.mod.o;  true

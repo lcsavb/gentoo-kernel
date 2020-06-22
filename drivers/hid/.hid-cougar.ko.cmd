@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-cougar.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hid/hid-cougar.ko drivers/hid/hid-cougar.o drivers/hid/hid-cougar.mod.o;  true

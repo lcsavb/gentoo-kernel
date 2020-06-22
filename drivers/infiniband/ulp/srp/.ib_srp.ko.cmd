@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/ulp/srp/ib_srp.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/infiniband/ulp/srp/ib_srp.ko drivers/infiniband/ulp/srp/ib_srp.o drivers/infiniband/ulp/srp/ib_srp.mod.o;  true

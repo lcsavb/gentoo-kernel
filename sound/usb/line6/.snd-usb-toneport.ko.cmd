@@ -1,0 +1,1 @@
+cmd_sound/usb/line6/snd-usb-toneport.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/usb/line6/snd-usb-toneport.ko sound/usb/line6/snd-usb-toneport.o sound/usb/line6/snd-usb-toneport.mod.o;  true

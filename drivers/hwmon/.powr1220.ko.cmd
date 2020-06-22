@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/powr1220.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwmon/powr1220.ko drivers/hwmon/powr1220.o drivers/hwmon/powr1220.mod.o;  true

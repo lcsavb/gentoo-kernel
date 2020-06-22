@@ -1,0 +1,1 @@
+cmd_sound/pci/ca0106/snd-ca0106.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/pci/ca0106/snd-ca0106.ko sound/pci/ca0106/snd-ca0106.o sound/pci/ca0106/snd-ca0106.mod.o;  true

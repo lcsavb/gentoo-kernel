@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/hw/efa/efa.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/infiniband/hw/efa/efa.ko drivers/infiniband/hw/efa/efa.o drivers/infiniband/hw/efa/efa.mod.o;  true

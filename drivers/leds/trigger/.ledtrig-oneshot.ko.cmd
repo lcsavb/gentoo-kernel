@@ -1,0 +1,1 @@
+cmd_drivers/leds/trigger/ledtrig-oneshot.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/leds/trigger/ledtrig-oneshot.ko drivers/leds/trigger/ledtrig-oneshot.o drivers/leds/trigger/ledtrig-oneshot.mod.o;  true

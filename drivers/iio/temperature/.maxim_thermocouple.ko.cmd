@@ -1,0 +1,1 @@
+cmd_drivers/iio/temperature/maxim_thermocouple.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/temperature/maxim_thermocouple.ko drivers/iio/temperature/maxim_thermocouple.o drivers/iio/temperature/maxim_thermocouple.mod.o;  true

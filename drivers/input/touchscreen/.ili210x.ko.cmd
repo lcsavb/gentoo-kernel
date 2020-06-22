@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/ili210x.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/touchscreen/ili210x.ko drivers/input/touchscreen/ili210x.o drivers/input/touchscreen/ili210x.mod.o;  true

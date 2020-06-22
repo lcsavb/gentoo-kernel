@@ -1,0 +1,1 @@
+cmd_net/netfilter/nft_limit.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/netfilter/nft_limit.ko net/netfilter/nft_limit.o net/netfilter/nft_limit.mod.o;  true

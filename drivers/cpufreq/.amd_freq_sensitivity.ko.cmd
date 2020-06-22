@@ -1,0 +1,1 @@
+cmd_drivers/cpufreq/amd_freq_sensitivity.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/cpufreq/amd_freq_sensitivity.ko drivers/cpufreq/amd_freq_sensitivity.o drivers/cpufreq/amd_freq_sensitivity.mod.o;  true

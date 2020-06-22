@@ -1,0 +1,1 @@
+cmd_drivers/pcmcia/i82092.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/pcmcia/i82092.ko drivers/pcmcia/i82092.o drivers/pcmcia/i82092.mod.o;  true

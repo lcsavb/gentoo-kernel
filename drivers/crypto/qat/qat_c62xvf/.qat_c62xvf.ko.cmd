@@ -1,0 +1,1 @@
+cmd_drivers/crypto/qat/qat_c62xvf/qat_c62xvf.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/crypto/qat/qat_c62xvf/qat_c62xvf.ko drivers/crypto/qat/qat_c62xvf/qat_c62xvf.o drivers/crypto/qat/qat_c62xvf/qat_c62xvf.mod.o;  true

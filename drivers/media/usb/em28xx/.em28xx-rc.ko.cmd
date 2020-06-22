@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/em28xx/em28xx-rc.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/usb/em28xx/em28xx-rc.ko drivers/media/usb/em28xx/em28xx-rc.o drivers/media/usb/em28xx/em28xx-rc.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/iio/orientation/hid-sensor-incl-3d.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/orientation/hid-sensor-incl-3d.ko drivers/iio/orientation/hid-sensor-incl-3d.o drivers/iio/orientation/hid-sensor-incl-3d.mod.o;  true

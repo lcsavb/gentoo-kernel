@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/ltc2945.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwmon/ltc2945.ko drivers/hwmon/ltc2945.o drivers/hwmon/ltc2945.mod.o;  true

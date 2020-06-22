@@ -1,0 +1,1 @@
+cmd_drivers/acpi/acpi_tad.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/acpi/acpi_tad.ko drivers/acpi/acpi_tad.o drivers/acpi/acpi_tad.mod.o;  true

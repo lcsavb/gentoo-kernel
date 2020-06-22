@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ralink/rt2x00/rt2800usb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/wireless/ralink/rt2x00/rt2800usb.ko drivers/net/wireless/ralink/rt2x00/rt2800usb.o drivers/net/wireless/ralink/rt2x00/rt2800usb.mod.o;  true

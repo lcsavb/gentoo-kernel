@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/hw/i40iw/i40iw.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/infiniband/hw/i40iw/i40iw.ko drivers/infiniband/hw/i40iw/i40iw.o drivers/infiniband/hw/i40iw/i40iw.mod.o;  true

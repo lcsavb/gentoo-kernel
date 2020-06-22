@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/max6639.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwmon/max6639.ko drivers/hwmon/max6639.o drivers/hwmon/max6639.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/neterion/s2io.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ethernet/neterion/s2io.ko drivers/net/ethernet/neterion/s2io.o drivers/net/ethernet/neterion/s2io.mod.o;  true

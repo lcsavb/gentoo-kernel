@@ -1,0 +1,1 @@
+cmd_drivers/staging/uwb/i1480/dfu/i1480-dfu-usb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/staging/uwb/i1480/dfu/i1480-dfu-usb.ko drivers/staging/uwb/i1480/dfu/i1480-dfu-usb.o drivers/staging/uwb/i1480/dfu/i1480-dfu-usb.mod.o;  true

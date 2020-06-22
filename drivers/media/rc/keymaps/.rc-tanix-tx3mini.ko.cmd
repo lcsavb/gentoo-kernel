@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-tanix-tx3mini.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/rc/keymaps/rc-tanix-tx3mini.ko drivers/media/rc/keymaps/rc-tanix-tx3mini.o drivers/media/rc/keymaps/rc-tanix-tx3mini.mod.o;  true

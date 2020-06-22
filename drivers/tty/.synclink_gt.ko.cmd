@@ -1,0 +1,1 @@
+cmd_drivers/tty/synclink_gt.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/tty/synclink_gt.ko drivers/tty/synclink_gt.o drivers/tty/synclink_gt.mod.o;  true

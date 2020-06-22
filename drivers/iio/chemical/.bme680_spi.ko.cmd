@@ -1,0 +1,1 @@
+cmd_drivers/iio/chemical/bme680_spi.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/chemical/bme680_spi.ko drivers/iio/chemical/bme680_spi.o drivers/iio/chemical/bme680_spi.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/mcs7830.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/usb/mcs7830.ko drivers/net/usb/mcs7830.o drivers/net/usb/mcs7830.mod.o;  true

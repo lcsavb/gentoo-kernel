@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/mt352.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/dvb-frontends/mt352.ko drivers/media/dvb-frontends/mt352.o drivers/media/dvb-frontends/mt352.mod.o;  true

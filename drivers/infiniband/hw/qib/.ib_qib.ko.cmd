@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/hw/qib/ib_qib.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/infiniband/hw/qib/ib_qib.ko drivers/infiniband/hw/qib/ib_qib.o drivers/infiniband/hw/qib/ib_qib.mod.o;  true

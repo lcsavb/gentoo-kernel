@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/xsens_mt.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/usb/serial/xsens_mt.ko drivers/usb/serial/xsens_mt.o drivers/usb/serial/xsens_mt.mod.o;  true

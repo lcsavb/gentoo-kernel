@@ -1,0 +1,1 @@
+cmd_fs/configfs/configfs.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o fs/configfs/configfs.ko fs/configfs/configfs.o fs/configfs/configfs.mod.o;  true

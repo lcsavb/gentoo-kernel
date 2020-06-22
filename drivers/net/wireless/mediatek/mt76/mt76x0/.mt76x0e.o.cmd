@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0e.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0e.o drivers/net/wireless/mediatek/mt76/mt76x0/pci.o drivers/net/wireless/mediatek/mt76/mt76x0/pci_mcu.o

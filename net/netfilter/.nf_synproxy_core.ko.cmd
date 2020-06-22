@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_synproxy_core.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/netfilter/nf_synproxy_core.ko net/netfilter/nf_synproxy_core.o net/netfilter/nf_synproxy_core.mod.o;  true

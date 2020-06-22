@@ -1,0 +1,1 @@
+cmd_sound/pci/oxygen/snd-virtuoso.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/pci/oxygen/snd-virtuoso.ko sound/pci/oxygen/snd-virtuoso.o sound/pci/oxygen/snd-virtuoso.mod.o;  true

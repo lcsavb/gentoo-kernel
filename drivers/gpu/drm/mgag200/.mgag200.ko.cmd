@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/mgag200/mgag200.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/gpu/drm/mgag200/mgag200.ko drivers/gpu/drm/mgag200/mgag200.o drivers/gpu/drm/mgag200/mgag200.mod.o;  true

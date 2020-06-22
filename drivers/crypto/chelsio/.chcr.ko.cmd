@@ -1,0 +1,1 @@
+cmd_drivers/crypto/chelsio/chcr.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/crypto/chelsio/chcr.ko drivers/crypto/chelsio/chcr.o drivers/crypto/chelsio/chcr.mod.o;  true

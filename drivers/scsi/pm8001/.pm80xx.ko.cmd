@@ -1,0 +1,1 @@
+cmd_drivers/scsi/pm8001/pm80xx.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/scsi/pm8001/pm80xx.ko drivers/scsi/pm8001/pm80xx.o drivers/scsi/pm8001/pm80xx.mod.o;  true

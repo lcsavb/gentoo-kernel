@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/drm_panel_orientation_quirks.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/gpu/drm/drm_panel_orientation_quirks.ko drivers/gpu/drm/drm_panel_orientation_quirks.o drivers/gpu/drm/drm_panel_orientation_quirks.mod.o;  true

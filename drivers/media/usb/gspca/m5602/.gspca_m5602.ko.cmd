@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/m5602/gspca_m5602.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/usb/gspca/m5602/gspca_m5602.ko drivers/media/usb/gspca/m5602/gspca_m5602.o drivers/media/usb/gspca/m5602/gspca_m5602.mod.o;  true

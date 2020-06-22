@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/davicom.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/phy/davicom.ko drivers/net/phy/davicom.o drivers/net/phy/davicom.mod.o;  true

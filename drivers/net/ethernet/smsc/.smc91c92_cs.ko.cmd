@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/smsc/smc91c92_cs.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ethernet/smsc/smc91c92_cs.ko drivers/net/ethernet/smsc/smc91c92_cs.o drivers/net/ethernet/smsc/smc91c92_cs.mod.o;  true

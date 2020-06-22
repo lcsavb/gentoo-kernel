@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-videomate-tv-pvr.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/rc/keymaps/rc-videomate-tv-pvr.ko drivers/media/rc/keymaps/rc-videomate-tv-pvr.o drivers/media/rc/keymaps/rc-videomate-tv-pvr.mod.o;  true

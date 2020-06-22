@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/via686a.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwmon/via686a.ko drivers/hwmon/via686a.o drivers/hwmon/via686a.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/netdevsim/netdevsim.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/netdevsim/netdevsim.ko drivers/net/netdevsim/netdevsim.o drivers/net/netdevsim/netdevsim.mod.o;  true

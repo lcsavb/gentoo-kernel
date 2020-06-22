@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/dell-smm-hwmon.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwmon/dell-smm-hwmon.ko drivers/hwmon/dell-smm-hwmon.o drivers/hwmon/dell-smm-hwmon.mod.o;  true

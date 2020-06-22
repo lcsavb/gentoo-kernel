@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/intel/igc/igc.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ethernet/intel/igc/igc.ko drivers/net/ethernet/intel/igc/igc.o drivers/net/ethernet/intel/igc/igc.mod.o;  true

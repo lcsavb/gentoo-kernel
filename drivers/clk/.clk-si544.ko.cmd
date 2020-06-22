@@ -1,0 +1,1 @@
+cmd_drivers/clk/clk-si544.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/clk/clk-si544.ko drivers/clk/clk-si544.o drivers/clk/clk-si544.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/quantenna/qtnfmac/qtnfmac_pcie.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/wireless/quantenna/qtnfmac/qtnfmac_pcie.ko drivers/net/wireless/quantenna/qtnfmac/qtnfmac_pcie.o drivers/net/wireless/quantenna/qtnfmac/qtnfmac_pcie.mod.o;  true

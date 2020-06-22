@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_CONNSECMARK.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/netfilter/xt_CONNSECMARK.ko net/netfilter/xt_CONNSECMARK.o net/netfilter/xt_CONNSECMARK.mod.o;  true

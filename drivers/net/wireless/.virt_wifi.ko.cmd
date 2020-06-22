@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/virt_wifi.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/wireless/virt_wifi.ko drivers/net/wireless/virt_wifi.o drivers/net/wireless/virt_wifi.mod.o;  true

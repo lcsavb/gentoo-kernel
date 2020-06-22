@@ -1,0 +1,1 @@
+cmd_drivers/net/can/ifi_canfd/ifi_canfd.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/can/ifi_canfd/ifi_canfd.ko drivers/net/can/ifi_canfd/ifi_canfd.o drivers/net/can/ifi_canfd/ifi_canfd.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/bluetooth/hci_nokia.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/bluetooth/hci_nokia.ko drivers/bluetooth/hci_nokia.o drivers/bluetooth/hci_nokia.mod.o;  true

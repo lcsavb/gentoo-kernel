@@ -1,0 +1,28 @@
+!<thin>
+//                                              234       `
+hda/hda_bind.o/
+hda/hda_codec.o/
+hda/hda_jack.o/
+hda/hda_auto_parser.o/
+hda/hda_sysfs.o/
+hda/hda_controller.o/
+hda/hda_proc.o/
+hda/hda_hwdep.o/
+hda/hda_generic.o/
+hda/patch_realtek.o/
+hda/patch_hdmi.o/
+hda/hda_eld.o/
+hda/hda_intel.o/
+/0              0           0     0     644     9160      `
+/16             0           0     0     644     119888    `
+/33             0           0     0     644     19816     `
+/49             0           0     0     644     23040     `
+/72             0           0     0     644     28944     `
+/89             0           0     0     644     50360     `
+/111            0           0     0     644     28632     `
+/127            0           0     0     644     3496      `
+/144            0           0     0     644     131664    `
+/163           /0           0     0     644     174120    `
+/184            0           0     0     644     80584     `
+/202            0           0     0     644     19856     `
+/217            0           0     0     644     62520     `

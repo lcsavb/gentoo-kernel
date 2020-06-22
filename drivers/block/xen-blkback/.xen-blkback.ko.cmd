@@ -1,0 +1,1 @@
+cmd_drivers/block/xen-blkback/xen-blkback.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/block/xen-blkback/xen-blkback.ko drivers/block/xen-blkback/xen-blkback.o drivers/block/xen-blkback/xen-blkback.mod.o;  true

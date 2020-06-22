@@ -1,0 +1,1 @@
+cmd_drivers/iio/accel/dmard10.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/accel/dmard10.ko drivers/iio/accel/dmard10.o drivers/iio/accel/dmard10.mod.o;  true

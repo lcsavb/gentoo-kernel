@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/myricom/myri10ge/myri10ge.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ethernet/myricom/myri10ge/myri10ge.ko drivers/net/ethernet/myricom/myri10ge/myri10ge.o drivers/net/ethernet/myricom/myri10ge/myri10ge.mod.o;  true

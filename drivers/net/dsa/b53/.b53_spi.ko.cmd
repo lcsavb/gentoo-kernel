@@ -1,0 +1,1 @@
+cmd_drivers/net/dsa/b53/b53_spi.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/dsa/b53/b53_spi.ko drivers/net/dsa/b53/b53_spi.o drivers/net/dsa/b53/b53_spi.mod.o;  true

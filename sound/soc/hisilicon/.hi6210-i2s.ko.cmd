@@ -1,0 +1,1 @@
+cmd_sound/soc/hisilicon/hi6210-i2s.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/soc/hisilicon/hi6210-i2s.ko sound/soc/hisilicon/hi6210-i2s.o sound/soc/hisilicon/hi6210-i2s.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-lm3601x.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/leds/leds-lm3601x.ko drivers/leds/leds-lm3601x.o drivers/leds/leds-lm3601x.mod.o;  true

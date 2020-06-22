@@ -1,0 +1,1 @@
+cmd_drivers/hid/intel-ish-hid/intel-ishtp-hid.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hid/intel-ish-hid/intel-ishtp-hid.ko drivers/hid/intel-ish-hid/intel-ishtp-hid.o drivers/hid/intel-ish-hid/intel-ishtp-hid.mod.o;  true

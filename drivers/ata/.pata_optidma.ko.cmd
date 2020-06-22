@@ -1,0 +1,1 @@
+cmd_drivers/ata/pata_optidma.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/ata/pata_optidma.ko drivers/ata/pata_optidma.o drivers/ata/pata_optidma.mod.o;  true

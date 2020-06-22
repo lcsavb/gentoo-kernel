@@ -1,0 +1,1 @@
+cmd_sound/soc/sof/intel/snd-sof-intel-byt.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/soc/sof/intel/snd-sof-intel-byt.ko sound/soc/sof/intel/snd-sof-intel-byt.o sound/soc/sof/intel/snd-sof-intel-byt.mod.o;  true

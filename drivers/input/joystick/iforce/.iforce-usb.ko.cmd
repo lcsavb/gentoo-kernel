@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/iforce/iforce-usb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/joystick/iforce/iforce-usb.ko drivers/input/joystick/iforce/iforce-usb.o drivers/input/joystick/iforce/iforce-usb.mod.o;  true

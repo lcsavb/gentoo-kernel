@@ -1,0 +1,3 @@
+drivers/pcmcia/pcmcia_core.ko
+drivers/pcmcia/pcmcia_rsrc.ko
+drivers/pcmcia/yenta_socket.ko

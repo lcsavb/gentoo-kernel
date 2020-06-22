@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/boards/snd-soc-sst-haswell.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/soc/intel/boards/snd-soc-sst-haswell.ko sound/soc/intel/boards/snd-soc-sst-haswell.o sound/soc/intel/boards/snd-soc-sst-haswell.mod.o;  true

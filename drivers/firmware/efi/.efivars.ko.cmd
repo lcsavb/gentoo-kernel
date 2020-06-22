@@ -1,0 +1,1 @@
+cmd_drivers/firmware/efi/efivars.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/firmware/efi/efivars.ko drivers/firmware/efi/efivars.o drivers/firmware/efi/efivars.mod.o;  true

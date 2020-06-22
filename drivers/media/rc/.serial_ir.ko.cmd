@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/serial_ir.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/rc/serial_ir.ko drivers/media/rc/serial_ir.o drivers/media/rc/serial_ir.mod.o;  true

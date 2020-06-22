@@ -1,0 +1,1 @@
+cmd_sound/soc/sof/intel/snd-sof-intel-hda-common.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/soc/sof/intel/snd-sof-intel-hda-common.ko sound/soc/sof/intel/snd-sof-intel-hda-common.o sound/soc/sof/intel/snd-sof-intel-hda-common.mod.o;  true

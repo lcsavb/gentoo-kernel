@@ -1,0 +1,1 @@
+cmd_drivers/iio/humidity/hts221.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/humidity/hts221.ko drivers/iio/humidity/hts221.o drivers/iio/humidity/hts221.mod.o;  true

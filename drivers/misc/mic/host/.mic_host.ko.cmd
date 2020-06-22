@@ -1,0 +1,1 @@
+cmd_drivers/misc/mic/host/mic_host.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/misc/mic/host/mic_host.ko drivers/misc/mic/host/mic_host.o drivers/misc/mic/host/mic_host.mod.o;  true

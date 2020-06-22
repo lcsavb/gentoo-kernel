@@ -1,0 +1,1 @@
+cmd_drivers/mmc/core/mmc_block.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mmc/core/mmc_block.ko drivers/mmc/core/mmc_block.o drivers/mmc/core/mmc_block.mod.o;  true

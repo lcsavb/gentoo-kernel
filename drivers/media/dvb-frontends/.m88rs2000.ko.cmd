@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/m88rs2000.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/dvb-frontends/m88rs2000.ko drivers/media/dvb-frontends/m88rs2000.o drivers/media/dvb-frontends/m88rs2000.mod.o;  true

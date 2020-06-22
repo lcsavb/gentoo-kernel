@@ -1,0 +1,1 @@
+cmd_sound/pci/oxygen/snd-oxygen.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/pci/oxygen/snd-oxygen.ko sound/pci/oxygen/snd-oxygen.o sound/pci/oxygen/snd-oxygen.mod.o;  true

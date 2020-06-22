@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/i2c-designware-pci.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/i2c/busses/i2c-designware-pci.ko drivers/i2c/busses/i2c-designware-pci.o drivers/i2c/busses/i2c-designware-pci.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/npcm750-pwm-fan.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwmon/npcm750-pwm-fan.ko drivers/hwmon/npcm750-pwm-fan.o drivers/hwmon/npcm750-pwm-fan.mod.o;  true

@@ -1,0 +1,4 @@
+arch/x86/events/amd/power.ko
+arch/x86/kernel/msr.ko
+arch/x86/kernel/cpuid.ko
+arch/x86/platform/intel/iosf_mbi.ko

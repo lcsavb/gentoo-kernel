@@ -1,0 +1,1 @@
+cmd_net/sched/act_sample.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/sched/act_sample.ko net/sched/act_sample.o net/sched/act_sample.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_sound/core/seq/snd-seq-virmidi.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/core/seq/snd-seq-virmidi.ko sound/core/seq/snd-seq-virmidi.o sound/core/seq/snd-seq-virmidi.mod.o;  true

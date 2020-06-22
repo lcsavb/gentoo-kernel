@@ -1,0 +1,1 @@
+cmd_sound/hda/ext/snd-hda-ext-core.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/hda/ext/snd-hda-ext-core.ko sound/hda/ext/snd-hda-ext-core.o sound/hda/ext/snd-hda-ext-core.mod.o;  true

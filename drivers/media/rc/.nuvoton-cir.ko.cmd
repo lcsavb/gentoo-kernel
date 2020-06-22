@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/nuvoton-cir.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/rc/nuvoton-cir.ko drivers/media/rc/nuvoton-cir.o drivers/media/rc/nuvoton-cir.mod.o;  true

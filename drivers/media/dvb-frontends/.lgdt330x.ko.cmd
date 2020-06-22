@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/lgdt330x.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/dvb-frontends/lgdt330x.ko drivers/media/dvb-frontends/lgdt330x.o drivers/media/dvb-frontends/lgdt330x.mod.o;  true

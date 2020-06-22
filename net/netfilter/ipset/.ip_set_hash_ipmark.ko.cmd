@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipset/ip_set_hash_ipmark.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/netfilter/ipset/ip_set_hash_ipmark.ko net/netfilter/ipset/ip_set_hash_ipmark.o net/netfilter/ipset/ip_set_hash_ipmark.mod.o;  true

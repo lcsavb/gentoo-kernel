@@ -1,0 +1,1 @@
+cmd_drivers/staging/qlge/qlge.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/staging/qlge/qlge.o drivers/staging/qlge/qlge_main.o drivers/staging/qlge/qlge_dbg.o drivers/staging/qlge/qlge_mpi.o drivers/staging/qlge/qlge_ethtool.o

@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/drm_vram_helper.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/gpu/drm/drm_vram_helper.ko drivers/gpu/drm/drm_vram_helper.o drivers/gpu/drm/drm_vram_helper.mod.o;  true

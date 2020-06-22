@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/realtek/rtw88/rtw88.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/wireless/realtek/rtw88/rtw88.ko drivers/net/wireless/realtek/rtw88/rtw88.o drivers/net/wireless/realtek/rtw88/rtw88.mod.o;  true

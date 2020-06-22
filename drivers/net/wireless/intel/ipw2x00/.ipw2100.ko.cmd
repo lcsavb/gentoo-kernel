@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/intel/ipw2x00/ipw2100.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/wireless/intel/ipw2x00/ipw2100.ko drivers/net/wireless/intel/ipw2x00/ipw2100.o drivers/net/wireless/intel/ipw2x00/ipw2100.mod.o;  true

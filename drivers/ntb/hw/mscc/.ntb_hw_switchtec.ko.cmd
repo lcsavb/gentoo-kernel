@@ -1,0 +1,1 @@
+cmd_drivers/ntb/hw/mscc/ntb_hw_switchtec.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/ntb/hw/mscc/ntb_hw_switchtec.ko drivers/ntb/hw/mscc/ntb_hw_switchtec.o drivers/ntb/hw/mscc/ntb_hw_switchtec.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/ds1621.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwmon/ds1621.ko drivers/hwmon/ds1621.o drivers/hwmon/ds1621.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/apanel.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/misc/apanel.ko drivers/input/misc/apanel.o drivers/input/misc/apanel.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/can/sja1000/plx_pci.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/can/sja1000/plx_pci.ko drivers/net/can/sja1000/plx_pci.o drivers/net/can/sja1000/plx_pci.mod.o;  true

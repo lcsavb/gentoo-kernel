@@ -1,0 +1,1 @@
+cmd_drivers/mfd/intel_soc_pmic_chtdc_ti.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mfd/intel_soc_pmic_chtdc_ti.ko drivers/mfd/intel_soc_pmic_chtdc_ti.o drivers/mfd/intel_soc_pmic_chtdc_ti.mod.o;  true

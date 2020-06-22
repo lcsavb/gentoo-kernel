@@ -1,0 +1,1 @@
+cmd_sound/pci/korg1212/snd-korg1212.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/pci/korg1212/snd-korg1212.ko sound/pci/korg1212/snd-korg1212.o sound/pci/korg1212/snd-korg1212.mod.o;  true

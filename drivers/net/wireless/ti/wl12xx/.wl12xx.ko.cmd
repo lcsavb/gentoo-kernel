@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ti/wl12xx/wl12xx.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/wireless/ti/wl12xx/wl12xx.ko drivers/net/wireless/ti/wl12xx/wl12xx.o drivers/net/wireless/ti/wl12xx/wl12xx.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/sfp.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/phy/sfp.ko drivers/net/phy/sfp.o drivers/net/phy/sfp.mod.o;  true

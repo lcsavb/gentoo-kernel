@@ -1,0 +1,1 @@
+cmd_drivers/mfd/intel-lpss-pci.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mfd/intel-lpss-pci.ko drivers/mfd/intel-lpss-pci.o drivers/mfd/intel-lpss-pci.mod.o;  true

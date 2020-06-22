@@ -1,0 +1,1 @@
+cmd_sound/pci/emu10k1/snd-emu10k1-synth.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/pci/emu10k1/snd-emu10k1-synth.ko sound/pci/emu10k1/snd-emu10k1-synth.o sound/pci/emu10k1/snd-emu10k1-synth.mod.o;  true

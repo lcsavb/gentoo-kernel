@@ -1,0 +1,68 @@
+!<thin>
+//                                              988       `
+amdgpu/navi10_asd.bin.gen.o/
+amdgpu/navi10_ce.bin.gen.o/
+amdgpu/navi10_gpu_info.bin.gen.o/
+amdgpu/navi10_me.bin.gen.o/
+amdgpu/navi10_mec2.bin.gen.o/
+amdgpu/navi10_mec.bin.gen.o/
+amdgpu/navi10_pfp.bin.gen.o/
+amdgpu/navi10_rlc.bin.gen.o/
+amdgpu/navi10_sdma1.bin.gen.o/
+amdgpu/navi10_sdma.bin.gen.o/
+amdgpu/navi10_smc.bin.gen.o/
+amdgpu/navi10_sos.bin.gen.o/
+amdgpu/navi10_ta.bin.gen.o/
+amdgpu/navi10_vcn.bin.gen.o/
+amdgpu/navi14_asd.bin.gen.o/
+amdgpu/navi14_ce.bin.gen.o/
+amdgpu/navi14_ce_wks.bin.gen.o/
+amdgpu/navi14_gpu_info.bin.gen.o/
+amdgpu/navi14_me.bin.gen.o/
+amdgpu/navi14_mec2.bin.gen.o/
+amdgpu/navi14_mec2_wks.bin.gen.o/
+amdgpu/navi14_mec.bin.gen.o/
+amdgpu/navi14_mec_wks.bin.gen.o/
+amdgpu/navi14_me_wks.bin.gen.o/
+amdgpu/navi14_pfp.bin.gen.o/
+amdgpu/navi14_pfp_wks.bin.gen.o/
+amdgpu/navi14_rlc.bin.gen.o/
+amdgpu/navi14_sdma1.bin.gen.o/
+amdgpu/navi14_sdma.bin.gen.o/
+amdgpu/navi14_smc.bin.gen.o/
+amdgpu/navi14_sos.bin.gen.o/
+amdgpu/navi14_ta.bin.gen.o/
+amdgpu/navi14_vcn.bin.gen.o/
+/0              0           0     0     644     149232    `
+/29             0           0     0     644     264560    `
+/57             0           0     0     644     2056      `
+/91             0           0     0     644     264688    `
+/119            0           0     0     644     269856    `
+/149            0           0     0     644     269856    `
+/178            0           0     0     644     264688    `
+/207            0           0     0     644     45232     `
+/236            0           0     0     644     35064     `
+/267            0           0     0     644     35056     `
+/297            0           0     0     644     269240    `
+/326            0           0     0     644     185744    `
+/355            0           0     0     644     30704     `
+/383            0           0     0     644     459120    `
+/412            0           0     0     644     149232    `
+/441            0           0     0     644     264560    `
+/469            0           0     0     644     264576    `
+/501            0           0     0     644     2056      `
+/535            0           0     0     644     264688    `
+/563            0           0     0     644     269856    `
+/593            0           0     0     644     269872    `
+/627            0           0     0     644     269856    `
+/656            0           0     0     644     269872    `
+/689            0           0     0     644     264704    `
+/721            0           0     0     644     264688    `
+/750            0           0     0     644     264704    `
+/783            0           0     0     644     43992     `
+/812            0           0     0     644     35064     `
+/843            0           0     0     644     35056     `
+/873            0           0     0     644     265856    `
+/902            0           0     0     644     173120    `
+/931            0           0     0     644     30704     `
+/959            0           0     0     644     459120    `

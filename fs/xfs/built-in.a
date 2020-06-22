@@ -1,0 +1,243 @@
+!<thin>
+//                                              2118      `
+xfs_trace.o/
+libxfs/xfs_ag.o/
+libxfs/xfs_alloc.o/
+libxfs/xfs_alloc_btree.o/
+libxfs/xfs_attr.o/
+libxfs/xfs_attr_leaf.o/
+libxfs/xfs_attr_remote.o/
+libxfs/xfs_bit.o/
+libxfs/xfs_bmap.o/
+libxfs/xfs_bmap_btree.o/
+libxfs/xfs_btree.o/
+libxfs/xfs_da_btree.o/
+libxfs/xfs_da_format.o/
+libxfs/xfs_defer.o/
+libxfs/xfs_dir2.o/
+libxfs/xfs_dir2_block.o/
+libxfs/xfs_dir2_data.o/
+libxfs/xfs_dir2_leaf.o/
+libxfs/xfs_dir2_node.o/
+libxfs/xfs_dir2_sf.o/
+libxfs/xfs_dquot_buf.o/
+libxfs/xfs_ialloc.o/
+libxfs/xfs_ialloc_btree.o/
+libxfs/xfs_iext_tree.o/
+libxfs/xfs_inode_fork.o/
+libxfs/xfs_inode_buf.o/
+libxfs/xfs_log_rlimit.o/
+libxfs/xfs_ag_resv.o/
+libxfs/xfs_rmap.o/
+libxfs/xfs_rmap_btree.o/
+libxfs/xfs_refcount.o/
+libxfs/xfs_refcount_btree.o/
+libxfs/xfs_sb.o/
+libxfs/xfs_symlink_remote.o/
+libxfs/xfs_trans_inode.o/
+libxfs/xfs_trans_resv.o/
+libxfs/xfs_types.o/
+libxfs/xfs_rtbitmap.o/
+xfs_aops.o/
+xfs_attr_inactive.o/
+xfs_attr_list.o/
+xfs_bmap_util.o/
+xfs_bio_io.o/
+xfs_buf.o/
+xfs_dir2_readdir.o/
+xfs_discard.o/
+xfs_error.o/
+xfs_export.o/
+xfs_extent_busy.o/
+xfs_file.o/
+xfs_filestream.o/
+xfs_fsmap.o/
+xfs_fsops.o/
+xfs_globals.o/
+xfs_health.o/
+xfs_icache.o/
+xfs_ioctl.o/
+xfs_iomap.o/
+xfs_iops.o/
+xfs_inode.o/
+xfs_itable.o/
+xfs_iwalk.o/
+xfs_message.o/
+xfs_mount.o/
+xfs_mru_cache.o/
+xfs_pwork.o/
+xfs_reflink.o/
+xfs_stats.o/
+xfs_super.o/
+xfs_symlink.o/
+xfs_sysfs.o/
+xfs_trans.o/
+xfs_xattr.o/
+kmem.o/
+xfs_log.o/
+xfs_log_cil.o/
+xfs_bmap_item.o/
+xfs_buf_item.o/
+xfs_extfree_item.o/
+xfs_icreate_item.o/
+xfs_inode_item.o/
+xfs_refcount_item.o/
+xfs_rmap_item.o/
+xfs_log_recover.o/
+xfs_trans_ail.o/
+xfs_trans_buf.o/
+xfs_dquot.o/
+xfs_dquot_item.o/
+xfs_trans_dquot.o/
+xfs_qm_syscalls.o/
+xfs_qm_bhv.o/
+xfs_qm.o/
+xfs_quotaops.o/
+xfs_rtalloc.o/
+xfs_acl.o/
+xfs_sysctl.o/
+xfs_ioctl32.o/
+scrub/trace.o/
+scrub/agheader.o/
+scrub/alloc.o/
+scrub/attr.o/
+scrub/bmap.o/
+scrub/btree.o/
+scrub/common.o/
+scrub/dabtree.o/
+scrub/dir.o/
+scrub/fscounters.o/
+scrub/health.o/
+scrub/ialloc.o/
+scrub/inode.o/
+scrub/parent.o/
+scrub/refcount.o/
+scrub/rmap.o/
+scrub/scrub.o/
+scrub/symlink.o/
+scrub/rtbitmap.o/
+scrub/quota.o/
+scrub/agheader_repair.o/
+scrub/bitmap.o/
+scrub/repair.o/
+
+/0              0           0     0     644     1774312   `
+/13             0           0     0     644     228688    `
+/30             0           0     0     644     428424    `
+/50             0           0     0     644     259776    `
+/76             0           0     0     644     288072    `
+/95            /0           0     0     644     399824    `
+/119            0           0     0     644     270544    `
+/145            0           0     0     644     186584    `
+/163            0           0     0     644     534264    `
+/182            0           0     0     644     273968    `
+/207            0           0     0     644     471832    `
+/227            0           0     0     644     379488    `
+/250           /0           0     0     644     253480    `
+/274            0           0     0     644     274456    `
+/294            0           0     0     644     276912    `
+/313            0           0     0     644     301440    `
+/338           /0           0     0     644     271128    `
+/362           /0           0     0     644     329368    `
+/386           /0           0     0     644     354192    `
+/410            0           0     0     644     293520    `
+/432           /0           0     0     644     229352    `
+/456            0           0     0     644     412088    `
+/477            0           0     0     644     267472    `
+/504           /0           0     0     644     273048    `
+/528            0           0     0     644     278176    `
+/553           /0           0     0     644     254872    `
+/577            0           0     0     644     202960    `
+/602            0           0     0     644     246096    `
+/624            0           0     0     644     411960    `
+/643            0           0     0     644     266440    `
+/668            0           0     0     644     360120    `
+/691            0           0     0     644     264616    `
+/720            0           0     0     644     289816    `
+/737            0           0     0     644     227584    `
+/766            0           0     0     644     204200    `
+/792            0           0     0     644     232728    `
+/817            0           0     0     644     209520    `
+/837            0           0     0     644     246968    `
+/860            0           0     0     644     328688    `
+/872            0           0     0     644     227720    `
+/893           /0           0     0     644     278128    `
+/910           /0           0     0     644     326736    `
+/927            0           0     0     644     190688    `
+/941            0           0     0     644     525496    `
+/952            0           0     0     644     263056    `
+/972            0           0     0     644     243840    `
+/987            0           0     0     644     246944    `
+/1000           0           0     0     644     228960    `
+/1014           0           0     0     644     257496    `
+/1033           0           0     0     644     323888    `
+/1045           0           0     0     644     250792    `
+/1063           0           0     0     644     272024    `
+/1076           0           0     0     644     234360    `
+/1089           0           0     0     644     188648    `
+/1104           0           0     0     644     273984    `
+/1118           0           0     0     644     374112    `
+/1132           0           0     0     644     346648    `
+/1145           0           0     0     644     301608    `
+/1158           0           0     0     644     313040    `
+/1170           0           0     0     644     479824    `
+/1183           0           0     0     644     217008    `
+/1197           0           0     0     644     257240    `
+/1210           0           0     0     644     214432    `
+/1225           0           0     0     644     304304    `
+/1238          /0           0     0     644     220496    `
+/1255           0           0     0     644     231864    `
+/1268           0           0     0     644     337688    `
+/1283           0           0     0     644     200352    `
+/1296           0           0     0     644     399288    `
+/1309           0           0     0     644     263856    `
+/1324           0           0     0     644     252528    `
+/1337           0           0     0     644     303256    `
+/1350           0           0     0     644     210568    `
+/1363           0           0     0     644     225672    `
+/1371           0           0     0     644     455720    `
+/1382           0           0     0     644     294472    `
+/1397          /0           0     0     644     247824    `
+/1414           0           0     0     644     311224    `
+/1430           0           0     0     644     271960    `
+/1450           0           0     0     644     203880    `
+/1470           0           0     0     644     293424    `
+/1488           0           0     0     644     244704    `
+/1509          /0           0     0     644     245344    `
+/1526           0           0     0     644     526672    `
+/1545          /0           0     0     644     293264    `
+/1562          /0           0     0     644     285416    `
+/1579           0           0     0     644     376936    `
+/1592           0           0     0     644     243544    `
+/1610           0           0     0     644     241448    `
+/1629           0           0     0     644     236824    `
+/1648           0           0     0     644     212896    `
+/1662           0           0     0     644     345928    `
+/1672           0           0     0     644     229024    `
+/1688           0           0     0     644     250288    `
+/1703           0           0     0     644     237536    `
+/1714           0           0     0     644     196992    `
+/1728           0           0     0     644     277648    `
+/1743           0           0     0     644     629552    `
+/1758           0           0     0     644     243760    `
+/1776           0           0     0     644     214456    `
+/1791           0           0     0     644     234472    `
+/1805           0           0     0     644     242672    `
+/1819           0           0     0     644     256312    `
+/1834           0           0     0     644     284896    `
+/1850           0           0     0     644     251280    `
+/1867           0           0     0     644     247344    `
+/1880           0           0     0     644     222808    `
+/1900           0           0     0     644     209504    `
+/1916           0           0     0     644     246960    `
+/1932           0           0     0     644     232232    `
+/1947           0           0     0     644     219040    `
+/1963           0           0     0     644     225680    `
+/1981           0           0     0     644     218888    `
+/1995           0           0     0     644     239392    `
+/2010           0           0     0     644     206384    `
+/2027           0           0     0     644     211800    `
+/2045           0           0     0     644     223664    `
+/2060           0           0     0     644     257624    `
+/2085           0           0     0     644     218648    `
+/2101           0           0     0     644     274496    `

@@ -1,0 +1,97 @@
+#include <linux/build-salt.h>
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(.gnu.linkonce.this_module) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+static const struct modversion_info ____versions[]
+__used __section(__versions) = {
+	{ 0xa0de0e08, "module_layout" },
+	{ 0x85bd1608, "__request_region" },
+	{ 0x7aea09cb, "kmalloc_caches" },
+	{ 0x24a94b26, "snd_info_get_line" },
+	{ 0x946cfd49, "param_ops_int" },
+	{ 0x7ea3056, "snd_pcm_hw_constraint_step" },
+	{ 0xecf4a0a6, "snd_pcm_period_elapsed" },
+	{ 0xd3b8ee3, "snd_dma_alloc_pages" },
+	{ 0xa43f28c2, "dma_set_mask" },
+	{ 0xb3759e66, "pci_disable_device" },
+	{ 0x906f8c9f, "seq_printf" },
+	{ 0x652b4060, "param_ops_bool" },
+	{ 0xb2c1e2c9, "snd_rawmidi_set_ops" },
+	{ 0x3c3ff9fd, "sprintf" },
+	{ 0x7a5e88cd, "snd_pcm_hw_constraint_integer" },
+	{ 0x1a281859, "pv_ops" },
+	{ 0x823d5edb, "dma_set_coherent_mask" },
+	{ 0x9257688e, "snd_rawmidi_new" },
+	{ 0x911b2ef5, "param_ops_charp" },
+	{ 0x4a31a14a, "pci_set_master" },
+	{ 0xdbdf6c92, "ioport_resource" },
+	{ 0x16f582ec, "snd_device_new" },
+	{ 0x3812050a, "_raw_spin_unlock_irqrestore" },
+	{ 0xbcab6ee6, "sscanf" },
+	{ 0x447f2369, "snd_pcm_set_ops" },
+	{ 0xd75274fe, "pci_read_config_word" },
+	{ 0x8d29d5dd, "snd_pcm_lib_free_pages" },
+	{ 0x92d5838e, "request_threaded_irq" },
+	{ 0xc5a6d10b, "release_and_free_resource" },
+	{ 0x6ea87b1e, "snd_pcm_lib_ioctl" },
+	{ 0xab06bf8b, "_dev_err" },
+	{ 0x14a47e9b, "snd_ctl_boolean_mono_info" },
+	{ 0x9db2fc12, "snd_pcm_lib_malloc_pages" },
+	{ 0xca5a1fc6, "snd_card_new" },
+	{ 0x42a508e0, "_dev_info" },
+	{ 0x4e1b99f, "snd_pcm_std_chmaps" },
+	{ 0xdecd0b29, "__stack_chk_fail" },
+	{ 0x5afbb89f, "snd_ctl_new1" },
+	{ 0x2ea2c95c, "__x86_indirect_thunk_rax" },
+	{ 0x3a50244, "snd_dma_free_pages" },
+	{ 0x4bf1d746, "pci_read_config_dword" },
+	{ 0xbdfb6dbb, "__fentry__" },
+	{ 0x967b5f91, "pci_unregister_driver" },
+	{ 0xa0012449, "kmem_cache_alloc_trace" },
+	{ 0xdbf17652, "_raw_spin_lock" },
+	{ 0x52f7e552, "snd_ac97_bus" },
+	{ 0x51760917, "_raw_spin_lock_irqsave" },
+	{ 0xcfe699ba, "snd_ac97_mixer" },
+	{ 0x512c39e8, "snd_card_rw_proc_new" },
+	{ 0x37a0cba, "kfree" },
+	{ 0xece85da4, "param_array_ops" },
+	{ 0x1ce7c960, "__pci_register_driver" },
+	{ 0x7ab5cc5c, "snd_pcm_lib_preallocate_pages_for_all" },
+	{ 0xb69a4550, "snd_card_free" },
+	{ 0x1dc05a49, "snd_card_register" },
+	{ 0x53ea696c, "snd_pcm_add_chmap_ctls" },
+	{ 0x5102bac7, "snd_pcm_new" },
+	{ 0xce60c842, "snd_ctl_add" },
+	{ 0x59a41dad, "snd_rawmidi_transmit" },
+	{ 0xd2dd8c33, "pci_enable_device" },
+	{ 0x8dd9ee12, "snd_rawmidi_receive" },
+	{ 0xc1514a3b, "free_irq" },
+};
+
+MODULE_INFO(depends, "snd,snd-pcm,snd-rawmidi,snd-ac97-codec");
+
+MODULE_ALIAS("pci:v00001102d00000006sv*sd*bc*sc*i*");
+
+MODULE_INFO(srcversion, "066D20DDA14EDFA63131BFF");

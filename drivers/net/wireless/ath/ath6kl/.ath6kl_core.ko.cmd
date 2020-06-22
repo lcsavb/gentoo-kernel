@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ath/ath6kl/ath6kl_core.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/wireless/ath/ath6kl/ath6kl_core.ko drivers/net/wireless/ath/ath6kl/ath6kl_core.o drivers/net/wireless/ath/ath6kl/ath6kl_core.mod.o;  true

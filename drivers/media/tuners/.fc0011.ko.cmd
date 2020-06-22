@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/fc0011.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/tuners/fc0011.ko drivers/media/tuners/fc0011.o drivers/media/tuners/fc0011.mod.o;  true

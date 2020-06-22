@@ -1,0 +1,4 @@
+sound/soc/sof/intel/snd-sof-intel-byt.ko
+sound/soc/sof/intel/snd-sof-intel-ipc.ko
+sound/soc/sof/intel/snd-sof-intel-hda-common.ko
+sound/soc/sof/intel/snd-sof-intel-hda.ko

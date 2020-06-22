@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/drx39xyj/drx39xyj.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/dvb-frontends/drx39xyj/drx39xyj.ko drivers/media/dvb-frontends/drx39xyj/drx39xyj.o drivers/media/dvb-frontends/drx39xyj/drx39xyj.mod.o;  true

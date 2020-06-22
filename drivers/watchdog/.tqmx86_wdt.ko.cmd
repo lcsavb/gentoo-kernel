@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/tqmx86_wdt.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/watchdog/tqmx86_wdt.ko drivers/watchdog/tqmx86_wdt.o drivers/watchdog/tqmx86_wdt.mod.o;  true

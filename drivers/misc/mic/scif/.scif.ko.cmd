@@ -1,0 +1,1 @@
+cmd_drivers/misc/mic/scif/scif.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/misc/mic/scif/scif.ko drivers/misc/mic/scif/scif.o drivers/misc/mic/scif/scif.mod.o;  true

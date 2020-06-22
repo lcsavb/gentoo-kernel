@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/ax88796b.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/phy/ax88796b.ko drivers/net/phy/ax88796b.o drivers/net/phy/ax88796b.mod.o;  true

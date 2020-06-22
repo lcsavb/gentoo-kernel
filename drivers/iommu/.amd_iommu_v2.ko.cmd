@@ -1,0 +1,1 @@
+cmd_drivers/iommu/amd_iommu_v2.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iommu/amd_iommu_v2.ko drivers/iommu/amd_iommu_v2.o drivers/iommu/amd_iommu_v2.mod.o;  true

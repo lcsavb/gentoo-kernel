@@ -1,0 +1,1 @@
+cmd_drivers/misc/mic/cosm/mic_cosm.mod := { echo  drivers/misc/mic/cosm/cosm_main.o drivers/misc/mic/cosm/cosm_debugfs.o drivers/misc/mic/cosm/cosm_sysfs.o drivers/misc/mic/cosm/cosm_scif_server.o; echo; } > drivers/misc/mic/cosm/mic_cosm.mod

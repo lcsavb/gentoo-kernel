@@ -1,0 +1,1 @@
+cmd_drivers/usb/storage/ums-datafab.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/usb/storage/ums-datafab.ko drivers/usb/storage/ums-datafab.o drivers/usb/storage/ums-datafab.mod.o;  true

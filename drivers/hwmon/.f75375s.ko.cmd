@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/f75375s.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwmon/f75375s.ko drivers/hwmon/f75375s.o drivers/hwmon/f75375s.mod.o;  true

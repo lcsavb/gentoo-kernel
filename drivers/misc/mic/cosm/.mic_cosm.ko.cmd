@@ -1,0 +1,1 @@
+cmd_drivers/misc/mic/cosm/mic_cosm.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/misc/mic/cosm/mic_cosm.ko drivers/misc/mic/cosm/mic_cosm.o drivers/misc/mic/cosm/mic_cosm.mod.o;  true

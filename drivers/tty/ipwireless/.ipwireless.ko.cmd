@@ -1,0 +1,1 @@
+cmd_drivers/tty/ipwireless/ipwireless.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/tty/ipwireless/ipwireless.ko drivers/tty/ipwireless/ipwireless.o drivers/tty/ipwireless/ipwireless.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_sound/soc/amd/raven/snd-pci-acp3x.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/soc/amd/raven/snd-pci-acp3x.ko sound/soc/amd/raven/snd-pci-acp3x.o sound/soc/amd/raven/snd-pci-acp3x.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/gspca_conex.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/usb/gspca/gspca_conex.ko drivers/media/usb/gspca/gspca_conex.o drivers/media/usb/gspca/gspca_conex.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/misc/tifm_7xx1.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/misc/tifm_7xx1.ko drivers/misc/tifm_7xx1.o drivers/misc/tifm_7xx1.mod.o;  true

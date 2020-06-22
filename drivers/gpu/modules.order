@@ -1,0 +1,5 @@
+drivers/gpu/drm/drm_kms_helper.ko
+drivers/gpu/drm/drm.ko
+drivers/gpu/drm/ttm/ttm.ko
+drivers/gpu/drm/scheduler/gpu-sched.ko
+drivers/gpu/drm/amd/amdgpu/amdgpu.ko

@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/coretemp.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwmon/coretemp.ko drivers/hwmon/coretemp.o drivers/hwmon/coretemp.mod.o;  true

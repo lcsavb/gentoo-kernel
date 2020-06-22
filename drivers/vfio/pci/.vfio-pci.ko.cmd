@@ -1,0 +1,1 @@
+cmd_drivers/vfio/pci/vfio-pci.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/vfio/pci/vfio-pci.ko drivers/vfio/pci/vfio-pci.o drivers/vfio/pci/vfio-pci.mod.o;  true

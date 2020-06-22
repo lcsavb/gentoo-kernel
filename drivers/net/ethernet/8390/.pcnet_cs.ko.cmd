@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/8390/pcnet_cs.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ethernet/8390/pcnet_cs.ko drivers/net/ethernet/8390/pcnet_cs.o drivers/net/ethernet/8390/pcnet_cs.mod.o;  true

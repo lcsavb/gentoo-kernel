@@ -1,0 +1,1 @@
+cmd_sound/pci/echoaudio/snd-layla20.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/pci/echoaudio/snd-layla20.ko sound/pci/echoaudio/snd-layla20.o sound/pci/echoaudio/snd-layla20.mod.o;  true

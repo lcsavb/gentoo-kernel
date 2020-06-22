@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/sidewinder.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/joystick/sidewinder.ko drivers/input/joystick/sidewinder.o drivers/input/joystick/sidewinder.mod.o;  true

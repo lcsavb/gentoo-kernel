@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-blinkm.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/leds/leds-blinkm.ko drivers/leds/leds-blinkm.o drivers/leds/leds-blinkm.mod.o;  true

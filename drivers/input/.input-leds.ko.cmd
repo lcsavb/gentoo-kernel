@@ -1,0 +1,1 @@
+cmd_drivers/input/input-leds.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/input-leds.ko drivers/input/input-leds.o drivers/input/input-leds.mod.o;  true

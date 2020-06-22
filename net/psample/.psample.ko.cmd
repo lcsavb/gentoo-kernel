@@ -1,0 +1,1 @@
+cmd_net/psample/psample.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/psample/psample.ko net/psample/psample.o net/psample/psample.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb/dvb-usb-pctv452e.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/usb/dvb-usb/dvb-usb-pctv452e.ko drivers/media/usb/dvb-usb/dvb-usb-pctv452e.o drivers/media/usb/dvb-usb/dvb-usb-pctv452e.mod.o;  true

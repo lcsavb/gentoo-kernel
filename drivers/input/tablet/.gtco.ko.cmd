@@ -1,0 +1,1 @@
+cmd_drivers/input/tablet/gtco.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/tablet/gtco.ko drivers/input/tablet/gtco.o drivers/input/tablet/gtco.mod.o;  true

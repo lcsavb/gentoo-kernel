@@ -1,0 +1,1 @@
+cmd_net/netfilter/nft_fib.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/netfilter/nft_fib.ko net/netfilter/nft_fib.o net/netfilter/nft_fib.mod.o;  true

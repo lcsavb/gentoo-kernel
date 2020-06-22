@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-cec.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/rc/keymaps/rc-cec.ko drivers/media/rc/keymaps/rc-cec.o drivers/media/rc/keymaps/rc-cec.mod.o;  true

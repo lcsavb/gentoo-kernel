@@ -1,0 +1,1 @@
+cmd_drivers/usb/typec/tps6598x.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/usb/typec/tps6598x.ko drivers/usb/typec/tps6598x.o drivers/usb/typec/tps6598x.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/i2c-isch.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/i2c/busses/i2c-isch.ko drivers/i2c/busses/i2c-isch.o drivers/i2c/busses/i2c-isch.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_fs/autofs/autofs4.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o fs/autofs/autofs4.o fs/autofs/init.o fs/autofs/inode.o fs/autofs/root.o fs/autofs/symlink.o fs/autofs/waitq.o fs/autofs/expire.o fs/autofs/dev-ioctl.o

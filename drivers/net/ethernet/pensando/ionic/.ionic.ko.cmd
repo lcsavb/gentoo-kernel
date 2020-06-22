@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/pensando/ionic/ionic.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ethernet/pensando/ionic/ionic.ko drivers/net/ethernet/pensando/ionic/ionic.o drivers/net/ethernet/pensando/ionic/ionic.mod.o;  true

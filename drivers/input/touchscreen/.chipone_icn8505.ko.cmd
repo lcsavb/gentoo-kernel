@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/chipone_icn8505.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/touchscreen/chipone_icn8505.ko drivers/input/touchscreen/chipone_icn8505.o drivers/input/touchscreen/chipone_icn8505.mod.o;  true

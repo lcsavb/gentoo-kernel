@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-medion-x10-digitainer.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/rc/keymaps/rc-medion-x10-digitainer.ko drivers/media/rc/keymaps/rc-medion-x10-digitainer.o drivers/media/rc/keymaps/rc-medion-x10-digitainer.mod.o;  true

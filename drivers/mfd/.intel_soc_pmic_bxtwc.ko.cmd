@@ -1,0 +1,1 @@
+cmd_drivers/mfd/intel_soc_pmic_bxtwc.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mfd/intel_soc_pmic_bxtwc.ko drivers/mfd/intel_soc_pmic_bxtwc.o drivers/mfd/intel_soc_pmic_bxtwc.mod.o;  true

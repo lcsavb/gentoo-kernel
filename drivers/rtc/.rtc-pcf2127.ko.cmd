@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-pcf2127.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/rtc/rtc-pcf2127.ko drivers/rtc/rtc-pcf2127.o drivers/rtc/rtc-pcf2127.mod.o;  true

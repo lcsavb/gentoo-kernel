@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/rocker/rocker.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ethernet/rocker/rocker.ko drivers/net/ethernet/rocker/rocker.o drivers/net/ethernet/rocker/rocker.mod.o;  true

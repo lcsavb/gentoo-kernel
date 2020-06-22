@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/i2c-amd-mp2-pci.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/i2c/busses/i2c-amd-mp2-pci.ko drivers/i2c/busses/i2c-amd-mp2-pci.o drivers/i2c/busses/i2c-amd-mp2-pci.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/libphy.mod := { echo  drivers/net/phy/phy.o drivers/net/phy/phy-c45.o drivers/net/phy/phy-core.o drivers/net/phy/phy_device.o drivers/net/phy/mdio_bus.o drivers/net/phy/mdio_device.o; echo; } > drivers/net/phy/libphy.mod

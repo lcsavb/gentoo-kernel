@@ -1,0 +1,1 @@
+cmd_drivers/char/tpm/tpm_infineon.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/char/tpm/tpm_infineon.ko drivers/char/tpm/tpm_infineon.o drivers/char/tpm/tpm_infineon.mod.o;  true

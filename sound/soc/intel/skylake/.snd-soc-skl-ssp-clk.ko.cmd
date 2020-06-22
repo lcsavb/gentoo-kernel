@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/skylake/snd-soc-skl-ssp-clk.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/soc/intel/skylake/snd-soc-skl-ssp-clk.ko sound/soc/intel/skylake/snd-soc-skl-ssp-clk.o sound/soc/intel/skylake/snd-soc-skl-ssp-clk.mod.o;  true

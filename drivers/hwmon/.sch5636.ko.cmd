@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/sch5636.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwmon/sch5636.ko drivers/hwmon/sch5636.o drivers/hwmon/sch5636.mod.o;  true

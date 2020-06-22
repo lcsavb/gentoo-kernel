@@ -1,0 +1,1 @@
+cmd_drivers/net/dsa/bcm-sf2.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/dsa/bcm-sf2.ko drivers/net/dsa/bcm-sf2.o drivers/net/dsa/bcm-sf2.mod.o;  true

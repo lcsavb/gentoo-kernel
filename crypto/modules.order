@@ -1,0 +1,11 @@
+crypto/seqiv.ko
+crypto/cmac.ko
+crypto/gf128mul.ko
+crypto/ecb.ko
+crypto/ctr.ko
+crypto/gcm.ko
+crypto/ccm.ko
+crypto/aes_generic.ko
+crypto/ghash-generic.ko
+crypto/ecc.ko
+crypto/ecdh_generic.ko

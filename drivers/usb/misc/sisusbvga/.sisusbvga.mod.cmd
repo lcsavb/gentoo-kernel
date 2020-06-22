@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/sisusbvga/sisusbvga.mod := { echo  drivers/usb/misc/sisusbvga/sisusb.o drivers/usb/misc/sisusbvga/sisusb_con.o drivers/usb/misc/sisusbvga/sisusb_init.o; echo; } > drivers/usb/misc/sisusbvga/sisusbvga.mod

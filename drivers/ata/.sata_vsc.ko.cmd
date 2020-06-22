@@ -1,0 +1,1 @@
+cmd_drivers/ata/sata_vsc.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/ata/sata_vsc.ko drivers/ata/sata_vsc.o drivers/ata/sata_vsc.mod.o;  true

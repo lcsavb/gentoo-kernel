@@ -1,0 +1,1 @@
+cmd_drivers/crypto/atmel-sha204a.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/crypto/atmel-sha204a.ko drivers/crypto/atmel-sha204a.o drivers/crypto/atmel-sha204a.mod.o;  true

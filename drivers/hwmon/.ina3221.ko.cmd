@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/ina3221.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwmon/ina3221.ko drivers/hwmon/ina3221.o drivers/hwmon/ina3221.mod.o;  true

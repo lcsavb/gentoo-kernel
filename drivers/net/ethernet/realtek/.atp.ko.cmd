@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/realtek/atp.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ethernet/realtek/atp.ko drivers/net/ethernet/realtek/atp.o drivers/net/ethernet/realtek/atp.mod.o;  true

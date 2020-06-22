@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/sun/sungem.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ethernet/sun/sungem.ko drivers/net/ethernet/sun/sungem.o drivers/net/ethernet/sun/sungem.mod.o;  true

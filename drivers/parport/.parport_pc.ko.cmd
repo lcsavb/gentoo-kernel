@@ -1,0 +1,1 @@
+cmd_drivers/parport/parport_pc.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/parport/parport_pc.ko drivers/parport/parport_pc.o drivers/parport/parport_pc.mod.o;  true

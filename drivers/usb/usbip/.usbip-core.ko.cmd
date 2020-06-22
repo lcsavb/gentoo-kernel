@@ -1,0 +1,1 @@
+cmd_drivers/usb/usbip/usbip-core.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/usb/usbip/usbip-core.ko drivers/usb/usbip/usbip-core.o drivers/usb/usbip/usbip-core.mod.o;  true

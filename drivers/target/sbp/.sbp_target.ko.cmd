@@ -1,0 +1,1 @@
+cmd_drivers/target/sbp/sbp_target.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/target/sbp/sbp_target.ko drivers/target/sbp/sbp_target.o drivers/target/sbp/sbp_target.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/crypto/chelsio/chtls/chtls.mod := { echo  drivers/crypto/chelsio/chtls/chtls_main.o drivers/crypto/chelsio/chtls/chtls_cm.o drivers/crypto/chelsio/chtls/chtls_io.o drivers/crypto/chelsio/chtls/chtls_hw.o; echo; } > drivers/crypto/chelsio/chtls/chtls.mod

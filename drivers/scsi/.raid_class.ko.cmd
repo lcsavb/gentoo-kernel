@@ -1,0 +1,1 @@
+cmd_drivers/scsi/raid_class.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/scsi/raid_class.ko drivers/scsi/raid_class.o drivers/scsi/raid_class.mod.o;  true

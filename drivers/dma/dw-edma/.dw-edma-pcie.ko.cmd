@@ -1,0 +1,1 @@
+cmd_drivers/dma/dw-edma/dw-edma-pcie.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/dma/dw-edma/dw-edma-pcie.ko drivers/dma/dw-edma/dw-edma-pcie.o drivers/dma/dw-edma/dw-edma-pcie.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/block/xen-blkback/xen-blkback.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/block/xen-blkback/xen-blkback.o drivers/block/xen-blkback/blkback.o drivers/block/xen-blkback/xenbus.o

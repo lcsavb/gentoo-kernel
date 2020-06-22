@@ -1,0 +1,1 @@
+cmd_drivers/target/target_core_user.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/target/target_core_user.ko drivers/target/target_core_user.o drivers/target/target_core_user.mod.o;  true

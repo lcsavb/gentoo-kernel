@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/google/gve/gve.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ethernet/google/gve/gve.ko drivers/net/ethernet/google/gve/gve.o drivers/net/ethernet/google/gve/gve.mod.o;  true

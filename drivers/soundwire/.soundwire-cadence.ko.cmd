@@ -1,0 +1,1 @@
+cmd_drivers/soundwire/soundwire-cadence.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/soundwire/soundwire-cadence.ko drivers/soundwire/soundwire-cadence.o drivers/soundwire/soundwire-cadence.mod.o;  true

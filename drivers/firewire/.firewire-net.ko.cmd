@@ -1,0 +1,1 @@
+cmd_drivers/firewire/firewire-net.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/firewire/firewire-net.ko drivers/firewire/firewire-net.o drivers/firewire/firewire-net.mod.o;  true

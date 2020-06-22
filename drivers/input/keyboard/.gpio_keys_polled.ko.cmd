@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/gpio_keys_polled.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/keyboard/gpio_keys_polled.ko drivers/input/keyboard/gpio_keys_polled.o drivers/input/keyboard/gpio_keys_polled.mod.o;  true

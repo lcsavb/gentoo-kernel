@@ -1,0 +1,1 @@
+cmd_lib/netdev-notifier-error-inject.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o lib/netdev-notifier-error-inject.ko lib/netdev-notifier-error-inject.o lib/netdev-notifier-error-inject.mod.o;  true

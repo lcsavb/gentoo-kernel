@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/ttusb-budget/dvb-ttusb-budget.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/usb/ttusb-budget/dvb-ttusb-budget.ko drivers/media/usb/ttusb-budget/dvb-ttusb-budget.o drivers/media/usb/ttusb-budget/dvb-ttusb-budget.mod.o;  true

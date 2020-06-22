@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/drm_vram_helper.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/gpu/drm/drm_vram_helper.o drivers/gpu/drm/drm_gem_vram_helper.o drivers/gpu/drm/drm_vram_helper_common.o drivers/gpu/drm/drm_vram_mm_helper.o

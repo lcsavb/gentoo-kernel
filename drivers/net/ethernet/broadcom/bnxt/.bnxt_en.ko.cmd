@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/broadcom/bnxt/bnxt_en.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ethernet/broadcom/bnxt/bnxt_en.ko drivers/net/ethernet/broadcom/bnxt/bnxt_en.o drivers/net/ethernet/broadcom/bnxt/bnxt_en.mod.o;  true

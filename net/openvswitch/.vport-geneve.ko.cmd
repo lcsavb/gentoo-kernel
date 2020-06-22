@@ -1,0 +1,1 @@
+cmd_net/openvswitch/vport-geneve.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/openvswitch/vport-geneve.ko net/openvswitch/vport-geneve.o net/openvswitch/vport-geneve.mod.o;  true

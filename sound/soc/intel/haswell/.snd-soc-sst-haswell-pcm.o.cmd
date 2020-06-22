@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/haswell/snd-soc-sst-haswell-pcm.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o sound/soc/intel/haswell/snd-soc-sst-haswell-pcm.o sound/soc/intel/haswell/sst-haswell-ipc.o sound/soc/intel/haswell/sst-haswell-pcm.o sound/soc/intel/haswell/sst-haswell-dsp.o

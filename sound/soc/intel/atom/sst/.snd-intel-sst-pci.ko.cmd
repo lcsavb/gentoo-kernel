@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/atom/sst/snd-intel-sst-pci.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/soc/intel/atom/sst/snd-intel-sst-pci.ko sound/soc/intel/atom/sst/snd-intel-sst-pci.o sound/soc/intel/atom/sst/snd-intel-sst-pci.mod.o;  true

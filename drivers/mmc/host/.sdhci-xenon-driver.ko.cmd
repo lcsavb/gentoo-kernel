@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/sdhci-xenon-driver.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mmc/host/sdhci-xenon-driver.ko drivers/mmc/host/sdhci-xenon-driver.o drivers/mmc/host/sdhci-xenon-driver.mod.o;  true

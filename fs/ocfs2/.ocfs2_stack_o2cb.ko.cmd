@@ -1,0 +1,1 @@
+cmd_fs/ocfs2/ocfs2_stack_o2cb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o fs/ocfs2/ocfs2_stack_o2cb.ko fs/ocfs2/ocfs2_stack_o2cb.o fs/ocfs2/ocfs2_stack_o2cb.mod.o;  true

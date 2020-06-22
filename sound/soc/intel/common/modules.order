@@ -1,0 +1,5 @@
+sound/soc/intel/common/snd-soc-sst-dsp.ko
+sound/soc/intel/common/snd-soc-sst-ipc.ko
+sound/soc/intel/common/snd-soc-sst-acpi.ko
+sound/soc/intel/common/snd-soc-sst-firmware.ko
+sound/soc/intel/common/snd-soc-acpi-intel-match.ko

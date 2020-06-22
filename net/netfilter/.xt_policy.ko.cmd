@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_policy.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/netfilter/xt_policy.ko net/netfilter/xt_policy.o net/netfilter/xt_policy.mod.o;  true

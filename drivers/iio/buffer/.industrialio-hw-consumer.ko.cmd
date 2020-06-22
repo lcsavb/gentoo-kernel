@@ -1,0 +1,1 @@
+cmd_drivers/iio/buffer/industrialio-hw-consumer.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/buffer/industrialio-hw-consumer.ko drivers/iio/buffer/industrialio-hw-consumer.o drivers/iio/buffer/industrialio-hw-consumer.mod.o;  true

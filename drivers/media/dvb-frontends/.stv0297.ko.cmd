@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/stv0297.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/dvb-frontends/stv0297.ko drivers/media/dvb-frontends/stv0297.o drivers/media/dvb-frontends/stv0297.mod.o;  true

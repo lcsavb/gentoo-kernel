@@ -1,0 +1,156 @@
+!<thin>
+//                                              2422      `
+component.o/
+core.o/
+bus.o/
+dd.o/
+syscore.o/
+driver.o/
+class.o/
+platform.o/
+cpu.o/
+firmware.o/
+init.o/
+map.o/
+devres.o/
+attribute_container.o/
+transport_class.o/
+topology.o/
+container.o/
+property.o/
+cacheinfo.o/
+devcon.o/
+swnode.o/
+devtmpfs.o/
+power/sysfs.o/
+power/generic_ops.o/
+power/common.o/
+power/qos.o/
+power/runtime.o/
+power/wakeirq.o/
+power/main.o/
+power/wakeup.o/
+power/wakeup_stats.o/
+power/trace.o/
+power/domain.o/
+power/domain_governor.o/
+power/clock_ops.o/
+firmware_loader/main.o/
+firmware_loader/builtin/amdgpu/navi10_asd.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi10_ce.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi10_gpu_info.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi10_me.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi10_mec2.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi10_mec.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi10_pfp.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi10_rlc.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi10_sdma1.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi10_sdma.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi10_smc.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi10_sos.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi10_ta.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi10_vcn.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi14_asd.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi14_ce.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi14_ce_wks.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi14_gpu_info.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi14_me.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi14_mec2.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi14_mec2_wks.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi14_mec.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi14_mec_wks.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi14_me_wks.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi14_pfp.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi14_pfp_wks.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi14_rlc.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi14_sdma1.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi14_sdma.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi14_smc.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi14_sos.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi14_ta.bin.gen.o/
+firmware_loader/builtin/amdgpu/navi14_vcn.bin.gen.o/
+module.o/
+regmap/regmap.o/
+regmap/regcache.o/
+regmap/regcache-rbtree.o/
+regmap/regcache-flat.o/
+regmap/regmap-debugfs.o/
+pinctrl.o/
+platform-msi.o/
+/0              0           0     0     644     22024     `
+/13             0           0     0     644     96168     `
+/21             0           0     0     644     39472     `
+/28             0           0     0     644     33384     `
+/34             0           0     0     644     11488     `
+/45             0           0     0     644     10408     `
+/55             0           0     0     644     22400     `
+/64             0           0     0     644     44760     `
+/76             0           0     0     644     18040     `
+/83             0           0     0     644     2456      `
+/95             0           0     0     644     1968      `
+/103            0           0     0     644     5360      `
+/110            0           0     0     644     33936     `
+/120            0           0     0     644     14528     `
+/143            0           0     0     644     10504     `
+/162            0           0     0     644     8624      `
+/174            0           0     0     644     2760      `
+/187            0           0     0     644     41968     `
+/199            0           0     0     644     15792     `
+/212            0           0     0     644     9216      `
+/222            0           0     0     644     25464     `
+/232            0           0     0     644     13232     `
+/244            0           0     0     644     22656     `
+/259            0           0     0     644     15008     `
+/280            0           0     0     644     8096      `
+/296            0           0     0     644     28976     `
+/309            0           0     0     644     46656     `
+/326            0           0     0     644     10824     `
+/343            0           0     0     644     61280     `
+/357            0           0     0     644     38264     `
+/373            0           0     0     644     9600      `
+/395            0           0     0     644     8904      `
+/410            0           0     0     644     54832     `
+/426            0           0     0     644     5544      `
+/451            0           0     0     644     17064     `
+/470            0           0     0     644     34368     `
+/494            0           0     0     644     149232    `
+/547            0           0     0     644     264560    `
+/599            0           0     0     644     2056      `
+/657            0           0     0     644     264688    `
+/709            0           0     0     644     269856    `
+/763            0           0     0     644     269856    `
+/816            0           0     0     644     264688    `
+/869            0           0     0     644     45232     `
+/922            0           0     0     644     35064     `
+/977            0           0     0     644     35056     `
+/1031           0           0     0     644     269240    `
+/1084           0           0     0     644     185744    `
+/1137           0           0     0     644     30704     `
+/1189           0           0     0     644     459120    `
+/1242           0           0     0     644     149232    `
+/1295           0           0     0     644     264560    `
+/1347           0           0     0     644     264576    `
+/1403           0           0     0     644     2056      `
+/1461           0           0     0     644     264688    `
+/1513           0           0     0     644     269856    `
+/1567           0           0     0     644     269872    `
+/1625           0           0     0     644     269856    `
+/1678           0           0     0     644     269872    `
+/1735           0           0     0     644     264704    `
+/1791           0           0     0     644     264688    `
+/1844           0           0     0     644     264704    `
+/1901           0           0     0     644     43992     `
+/1954           0           0     0     644     35064     `
+/2009           0           0     0     644     35056     `
+/2063           0           0     0     644     265856    `
+/2116           0           0     0     644     173120    `
+/2169           0           0     0     644     30704     `
+/2221           0           0     0     644     459120    `
+/2274           0           0     0     644     3760      `
+/2284           0           0     0     644     111952    `
+/2301           0           0     0     644     23064     `
+/2320           0           0     0     644     11408     `
+/2346          /0           0     0     644     2720      `
+/2370           0           0     0     644     22240     `
+/2395           0           0     0     644     2608      `
+/2406           0           0     0     644     10896     `

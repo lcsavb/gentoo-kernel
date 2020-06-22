@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ath/ath10k/ath10k_pci.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/wireless/ath/ath10k/ath10k_pci.ko drivers/net/wireless/ath/ath10k/ath10k_pci.o drivers/net/wireless/ath/ath10k/ath10k_pci.mod.o;  true

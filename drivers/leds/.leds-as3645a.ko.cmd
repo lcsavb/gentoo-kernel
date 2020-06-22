@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-as3645a.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/leds/leds-as3645a.ko drivers/leds/leds-as3645a.o drivers/leds/leds-as3645a.mod.o;  true

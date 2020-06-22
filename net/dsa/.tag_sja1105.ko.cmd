@@ -1,0 +1,1 @@
+cmd_net/dsa/tag_sja1105.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/dsa/tag_sja1105.ko net/dsa/tag_sja1105.o net/dsa/tag_sja1105.mod.o;  true

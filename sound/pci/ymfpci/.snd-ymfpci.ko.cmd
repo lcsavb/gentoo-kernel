@@ -1,0 +1,1 @@
+cmd_sound/pci/ymfpci/snd-ymfpci.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/pci/ymfpci/snd-ymfpci.ko sound/pci/ymfpci/snd-ymfpci.o sound/pci/ymfpci/snd-ymfpci.mod.o;  true

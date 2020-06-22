@@ -1,0 +1,1 @@
+cmd_drivers/iio/humidity/dht11.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/humidity/dht11.ko drivers/iio/humidity/dht11.o drivers/iio/humidity/dht11.mod.o;  true

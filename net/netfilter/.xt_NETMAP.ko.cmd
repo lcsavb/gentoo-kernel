@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_NETMAP.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/netfilter/xt_NETMAP.ko net/netfilter/xt_NETMAP.o net/netfilter/xt_NETMAP.mod.o;  true

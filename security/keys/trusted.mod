@@ -1,0 +1,2 @@
+security/keys/trusted.o
+

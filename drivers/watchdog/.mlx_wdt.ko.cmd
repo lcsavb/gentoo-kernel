@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/mlx_wdt.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/watchdog/mlx_wdt.ko drivers/watchdog/mlx_wdt.o drivers/watchdog/mlx_wdt.mod.o;  true

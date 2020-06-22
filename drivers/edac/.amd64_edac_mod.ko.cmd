@@ -1,0 +1,1 @@
+cmd_drivers/edac/amd64_edac_mod.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/edac/amd64_edac_mod.ko drivers/edac/amd64_edac_mod.o drivers/edac/amd64_edac_mod.mod.o;  true

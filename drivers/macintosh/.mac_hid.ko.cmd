@@ -1,0 +1,1 @@
+cmd_drivers/macintosh/mac_hid.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/macintosh/mac_hid.ko drivers/macintosh/mac_hid.o drivers/macintosh/mac_hid.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/core/cfbfillrect.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/video/fbdev/core/cfbfillrect.ko drivers/video/fbdev/core/cfbfillrect.o drivers/video/fbdev/core/cfbfillrect.mod.o;  true

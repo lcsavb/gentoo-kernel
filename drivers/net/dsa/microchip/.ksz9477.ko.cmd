@@ -1,0 +1,1 @@
+cmd_drivers/net/dsa/microchip/ksz9477.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/dsa/microchip/ksz9477.ko drivers/net/dsa/microchip/ksz9477.o drivers/net/dsa/microchip/ksz9477.mod.o;  true

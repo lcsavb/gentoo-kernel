@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0u.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0u.ko drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0u.o drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0u.mod.o;  true

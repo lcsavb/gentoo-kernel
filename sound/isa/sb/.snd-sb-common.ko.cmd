@@ -1,0 +1,1 @@
+cmd_sound/isa/sb/snd-sb-common.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/isa/sb/snd-sb-common.ko sound/isa/sb/snd-sb-common.o sound/isa/sb/snd-sb-common.mod.o;  true

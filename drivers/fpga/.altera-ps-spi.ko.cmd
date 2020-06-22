@@ -1,0 +1,1 @@
+cmd_drivers/fpga/altera-ps-spi.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/fpga/altera-ps-spi.ko drivers/fpga/altera-ps-spi.o drivers/fpga/altera-ps-spi.mod.o;  true

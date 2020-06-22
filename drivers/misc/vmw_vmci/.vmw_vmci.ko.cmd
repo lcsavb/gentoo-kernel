@@ -1,0 +1,1 @@
+cmd_drivers/misc/vmw_vmci/vmw_vmci.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/misc/vmw_vmci/vmw_vmci.ko drivers/misc/vmw_vmci/vmw_vmci.o drivers/misc/vmw_vmci/vmw_vmci.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/virt/vboxguest/vboxguest.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/virt/vboxguest/vboxguest.o drivers/virt/vboxguest/vboxguest_linux.o drivers/virt/vboxguest/vboxguest_core.o drivers/virt/vboxguest/vboxguest_utils.o

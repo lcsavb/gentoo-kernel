@@ -1,0 +1,1 @@
+cmd_drivers/ptp/ptp_kvm.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/ptp/ptp_kvm.ko drivers/ptp/ptp_kvm.o drivers/ptp/ptp_kvm.mod.o;  true

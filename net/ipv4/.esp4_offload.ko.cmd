@@ -1,0 +1,1 @@
+cmd_net/ipv4/esp4_offload.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/ipv4/esp4_offload.ko net/ipv4/esp4_offload.o net/ipv4/esp4_offload.mod.o;  true

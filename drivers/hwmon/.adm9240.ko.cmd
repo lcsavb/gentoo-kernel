@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/adm9240.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwmon/adm9240.ko drivers/hwmon/adm9240.o drivers/hwmon/adm9240.mod.o;  true

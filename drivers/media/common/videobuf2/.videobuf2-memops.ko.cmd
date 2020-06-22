@@ -1,0 +1,1 @@
+cmd_drivers/media/common/videobuf2/videobuf2-memops.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/common/videobuf2/videobuf2-memops.ko drivers/media/common/videobuf2/videobuf2-memops.o drivers/media/common/videobuf2/videobuf2-memops.mod.o;  true

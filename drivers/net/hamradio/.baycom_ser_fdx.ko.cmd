@@ -1,0 +1,1 @@
+cmd_drivers/net/hamradio/baycom_ser_fdx.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/hamradio/baycom_ser_fdx.ko drivers/net/hamradio/baycom_ser_fdx.o drivers/net/hamradio/baycom_ser_fdx.mod.o;  true

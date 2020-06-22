@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/st_uvis25_spi.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/light/st_uvis25_spi.ko drivers/iio/light/st_uvis25_spi.o drivers/iio/light/st_uvis25_spi.mod.o;  true

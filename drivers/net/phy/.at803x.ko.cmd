@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/at803x.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/phy/at803x.ko drivers/net/phy/at803x.o drivers/net/phy/at803x.mod.o;  true

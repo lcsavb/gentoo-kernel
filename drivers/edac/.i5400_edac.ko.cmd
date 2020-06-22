@@ -1,0 +1,1 @@
+cmd_drivers/edac/i5400_edac.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/edac/i5400_edac.ko drivers/edac/i5400_edac.o drivers/edac/i5400_edac.mod.o;  true

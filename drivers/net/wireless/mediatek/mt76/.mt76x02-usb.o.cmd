@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/mediatek/mt76/mt76x02-usb.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/net/wireless/mediatek/mt76/mt76x02-usb.o drivers/net/wireless/mediatek/mt76/mt76x02_usb_mcu.o drivers/net/wireless/mediatek/mt76/mt76x02_usb_core.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/dec/tulip/xircom_cb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ethernet/dec/tulip/xircom_cb.ko drivers/net/ethernet/dec/tulip/xircom_cb.o drivers/net/ethernet/dec/tulip/xircom_cb.mod.o;  true

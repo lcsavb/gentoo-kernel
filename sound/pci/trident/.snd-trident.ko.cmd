@@ -1,0 +1,1 @@
+cmd_sound/pci/trident/snd-trident.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/pci/trident/snd-trident.ko sound/pci/trident/snd-trident.o sound/pci/trident/snd-trident.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/fpga/dfl-fme-region.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/fpga/dfl-fme-region.ko drivers/fpga/dfl-fme-region.o drivers/fpga/dfl-fme-region.mod.o;  true

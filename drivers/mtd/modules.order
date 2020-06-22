@@ -1,0 +1,9 @@
+drivers/mtd/chips/chipreg.ko
+drivers/mtd/devices/block2mtd.ko
+drivers/mtd/nand/raw/nand.ko
+drivers/mtd/nand/raw/nand_ecc.ko
+drivers/mtd/nand/nandcore.ko
+drivers/mtd/mtd.ko
+drivers/mtd/mtd_blkdevs.ko
+drivers/mtd/mtdblock.ko
+drivers/mtd/ubi/ubi.ko

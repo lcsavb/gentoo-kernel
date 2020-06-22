@@ -1,0 +1,1 @@
+cmd_sound/soc/snd-soc-acpi.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/soc/snd-soc-acpi.ko sound/soc/snd-soc-acpi.o sound/soc/snd-soc-acpi.mod.o;  true

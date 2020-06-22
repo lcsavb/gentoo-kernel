@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/nf_conntrack_bridge.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/bridge/netfilter/nf_conntrack_bridge.ko net/bridge/netfilter/nf_conntrack_bridge.o net/bridge/netfilter/nf_conntrack_bridge.mod.o;  true

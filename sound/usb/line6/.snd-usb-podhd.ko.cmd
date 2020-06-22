@@ -1,0 +1,1 @@
+cmd_sound/usb/line6/snd-usb-podhd.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/usb/line6/snd-usb-podhd.ko sound/usb/line6/snd-usb-podhd.o sound/usb/line6/snd-usb-podhd.mod.o;  true

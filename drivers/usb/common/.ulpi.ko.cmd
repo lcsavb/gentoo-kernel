@@ -1,0 +1,1 @@
+cmd_drivers/usb/common/ulpi.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/usb/common/ulpi.ko drivers/usb/common/ulpi.o drivers/usb/common/ulpi.mod.o;  true

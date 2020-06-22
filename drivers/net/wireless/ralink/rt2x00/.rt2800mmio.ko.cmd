@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ralink/rt2x00/rt2800mmio.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/wireless/ralink/rt2x00/rt2800mmio.ko drivers/net/wireless/ralink/rt2x00/rt2800mmio.o drivers/net/wireless/ralink/rt2x00/rt2800mmio.mod.o;  true

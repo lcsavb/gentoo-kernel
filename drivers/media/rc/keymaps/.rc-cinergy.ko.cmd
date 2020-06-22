@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-cinergy.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/rc/keymaps/rc-cinergy.ko drivers/media/rc/keymaps/rc-cinergy.o drivers/media/rc/keymaps/rc-cinergy.mod.o;  true

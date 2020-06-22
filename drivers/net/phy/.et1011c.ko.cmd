@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/et1011c.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/phy/et1011c.ko drivers/net/phy/et1011c.o drivers/net/phy/et1011c.mod.o;  true

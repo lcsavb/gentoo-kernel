@@ -1,0 +1,1 @@
+cmd_drivers/leds/trigger/ledtrig-timer.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/leds/trigger/ledtrig-timer.ko drivers/leds/trigger/ledtrig-timer.o drivers/leds/trigger/ledtrig-timer.mod.o;  true

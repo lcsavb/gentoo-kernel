@@ -1,0 +1,1 @@
+cmd_sound/soc/amd/snd-soc-acp-rt5645-mach.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/soc/amd/snd-soc-acp-rt5645-mach.ko sound/soc/amd/snd-soc-acp-rt5645-mach.o sound/soc/amd/snd-soc-acp-rt5645-mach.mod.o;  true

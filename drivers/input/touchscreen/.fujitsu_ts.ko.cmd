@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/fujitsu_ts.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/touchscreen/fujitsu_ts.ko drivers/input/touchscreen/fujitsu_ts.o drivers/input/touchscreen/fujitsu_ts.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/soundwire/soundwire-intel.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/soundwire/soundwire-intel.ko drivers/soundwire/soundwire-intel.o drivers/soundwire/soundwire-intel.mod.o;  true

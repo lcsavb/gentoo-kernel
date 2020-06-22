@@ -1,0 +1,1 @@
+cmd_drivers/net/thunderbolt-net.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/thunderbolt-net.ko drivers/net/thunderbolt-net.o drivers/net/thunderbolt-net.mod.o;  true

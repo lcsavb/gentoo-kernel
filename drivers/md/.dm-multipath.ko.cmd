@@ -1,0 +1,1 @@
+cmd_drivers/md/dm-multipath.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/md/dm-multipath.ko drivers/md/dm-multipath.o drivers/md/dm-multipath.mod.o;  true

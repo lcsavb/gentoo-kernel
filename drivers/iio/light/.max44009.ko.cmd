@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/max44009.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/light/max44009.ko drivers/iio/light/max44009.o drivers/iio/light/max44009.mod.o;  true

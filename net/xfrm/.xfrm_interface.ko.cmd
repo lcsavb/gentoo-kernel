@@ -1,0 +1,1 @@
+cmd_net/xfrm/xfrm_interface.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/xfrm/xfrm_interface.ko net/xfrm/xfrm_interface.o net/xfrm/xfrm_interface.mod.o;  true

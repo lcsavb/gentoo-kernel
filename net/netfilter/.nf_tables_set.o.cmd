@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_tables_set.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o net/netfilter/nf_tables_set.o net/netfilter/nf_tables_set_core.o net/netfilter/nft_set_hash.o net/netfilter/nft_set_bitmap.o net/netfilter/nft_set_rbtree.o

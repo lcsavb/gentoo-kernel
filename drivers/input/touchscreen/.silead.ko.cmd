@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/silead.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/touchscreen/silead.ko drivers/input/touchscreen/silead.o drivers/input/touchscreen/silead.mod.o;  true

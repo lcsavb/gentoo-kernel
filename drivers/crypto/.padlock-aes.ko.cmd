@@ -1,0 +1,1 @@
+cmd_drivers/crypto/padlock-aes.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/crypto/padlock-aes.ko drivers/crypto/padlock-aes.o drivers/crypto/padlock-aes.mod.o;  true

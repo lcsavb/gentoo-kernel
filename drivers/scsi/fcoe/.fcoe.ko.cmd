@@ -1,0 +1,1 @@
+cmd_drivers/scsi/fcoe/fcoe.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/scsi/fcoe/fcoe.ko drivers/scsi/fcoe/fcoe.o drivers/scsi/fcoe/fcoe.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/dibx000_common.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/dvb-frontends/dibx000_common.ko drivers/media/dvb-frontends/dibx000_common.o drivers/media/dvb-frontends/dibx000_common.mod.o;  true

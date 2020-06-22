@@ -1,0 +1,1 @@
+cmd_fs/nfs_common/grace.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o fs/nfs_common/grace.ko fs/nfs_common/grace.o fs/nfs_common/grace.mod.o;  true

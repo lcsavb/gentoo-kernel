@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-hisi-tv-demo.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/rc/keymaps/rc-hisi-tv-demo.ko drivers/media/rc/keymaps/rc-hisi-tv-demo.o drivers/media/rc/keymaps/rc-hisi-tv-demo.mod.o;  true

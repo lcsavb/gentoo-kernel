@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ath/ath10k/ath10k_usb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/wireless/ath/ath10k/ath10k_usb.ko drivers/net/wireless/ath/ath10k/ath10k_usb.o drivers/net/wireless/ath/ath10k/ath10k_usb.mod.o;  true

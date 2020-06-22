@@ -1,0 +1,1 @@
+cmd_drivers/iio/gyro/fxas21002c_core.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/gyro/fxas21002c_core.ko drivers/iio/gyro/fxas21002c_core.o drivers/iio/gyro/fxas21002c_core.mod.o;  true

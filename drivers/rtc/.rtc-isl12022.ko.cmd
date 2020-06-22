@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-isl12022.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/rtc/rtc-isl12022.ko drivers/rtc/rtc-isl12022.o drivers/rtc/rtc-isl12022.mod.o;  true

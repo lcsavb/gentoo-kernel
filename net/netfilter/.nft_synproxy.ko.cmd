@@ -1,0 +1,1 @@
+cmd_net/netfilter/nft_synproxy.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/netfilter/nft_synproxy.ko net/netfilter/nft_synproxy.o net/netfilter/nft_synproxy.mod.o;  true

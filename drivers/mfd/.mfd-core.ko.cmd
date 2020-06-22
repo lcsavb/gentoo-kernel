@@ -1,0 +1,1 @@
+cmd_drivers/mfd/mfd-core.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mfd/mfd-core.ko drivers/mfd/mfd-core.o drivers/mfd/mfd-core.mod.o;  true

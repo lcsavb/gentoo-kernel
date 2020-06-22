@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-terratec-cinergy-xs.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/rc/keymaps/rc-terratec-cinergy-xs.ko drivers/media/rc/keymaps/rc-terratec-cinergy-xs.o drivers/media/rc/keymaps/rc-terratec-cinergy-xs.mod.o;  true

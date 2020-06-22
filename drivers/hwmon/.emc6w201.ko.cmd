@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/emc6w201.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwmon/emc6w201.ko drivers/hwmon/emc6w201.o drivers/hwmon/emc6w201.mod.o;  true

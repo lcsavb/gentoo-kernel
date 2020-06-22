@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/upd78f0730.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/usb/serial/upd78f0730.ko drivers/usb/serial/upd78f0730.o drivers/usb/serial/upd78f0730.mod.o;  true

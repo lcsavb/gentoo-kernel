@@ -1,0 +1,1 @@
+cmd_drivers/pci/controller/vmd.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/pci/controller/vmd.ko drivers/pci/controller/vmd.o drivers/pci/controller/vmd.mod.o;  true

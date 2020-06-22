@@ -1,0 +1,1 @@
+cmd_drivers/net/netdevsim/netdevsim.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/net/netdevsim/netdevsim.o drivers/net/netdevsim/netdev.o drivers/net/netdevsim/dev.o drivers/net/netdevsim/fib.o drivers/net/netdevsim/bus.o drivers/net/netdevsim/bpf.o drivers/net/netdevsim/ipsec.o

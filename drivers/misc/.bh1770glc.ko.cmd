@@ -1,0 +1,1 @@
+cmd_drivers/misc/bh1770glc.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/misc/bh1770glc.ko drivers/misc/bh1770glc.o drivers/misc/bh1770glc.mod.o;  true

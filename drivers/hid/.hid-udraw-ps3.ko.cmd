@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-udraw-ps3.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hid/hid-udraw-ps3.ko drivers/hid/hid-udraw-ps3.o drivers/hid/hid-udraw-ps3.mod.o;  true

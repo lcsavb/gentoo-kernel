@@ -1,0 +1,1 @@
+cmd_sound/core/seq/snd-seq-midi-emul.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/core/seq/snd-seq-midi-emul.ko sound/core/seq/snd-seq-midi-emul.o sound/core/seq/snd-seq-midi-emul.mod.o;  true

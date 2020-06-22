@@ -1,0 +1,1 @@
+cmd_drivers/mtd/nand/nandcore.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mtd/nand/nandcore.ko drivers/mtd/nand/nandcore.o drivers/mtd/nand/nandcore.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_sound/soc/dwc/designware_i2s.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/soc/dwc/designware_i2s.ko sound/soc/dwc/designware_i2s.o sound/soc/dwc/designware_i2s.mod.o;  true

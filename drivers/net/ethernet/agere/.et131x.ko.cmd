@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/agere/et131x.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ethernet/agere/et131x.ko drivers/net/ethernet/agere/et131x.o drivers/net/ethernet/agere/et131x.mod.o;  true

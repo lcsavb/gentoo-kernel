@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/lxt.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/phy/lxt.ko drivers/net/phy/lxt.o drivers/net/phy/lxt.mod.o;  true

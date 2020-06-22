@@ -1,0 +1,1 @@
+cmd_drivers/message/fusion/mptscsih.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/message/fusion/mptscsih.ko drivers/message/fusion/mptscsih.o drivers/message/fusion/mptscsih.mod.o;  true

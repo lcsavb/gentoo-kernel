@@ -1,0 +1,1 @@
+cmd_drivers/bluetooth/btrsi.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/bluetooth/btrsi.ko drivers/bluetooth/btrsi.o drivers/bluetooth/btrsi.mod.o;  true

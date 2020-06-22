@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/adin.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/phy/adin.ko drivers/net/phy/adin.o drivers/net/phy/adin.mod.o;  true

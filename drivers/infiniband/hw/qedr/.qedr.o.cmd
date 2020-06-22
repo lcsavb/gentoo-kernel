@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/hw/qedr/qedr.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/infiniband/hw/qedr/qedr.o drivers/infiniband/hw/qedr/main.o drivers/infiniband/hw/qedr/verbs.o drivers/infiniband/hw/qedr/qedr_roce_cm.o drivers/infiniband/hw/qedr/qedr_iw_cm.o

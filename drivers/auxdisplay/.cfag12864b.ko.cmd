@@ -1,0 +1,1 @@
+cmd_drivers/auxdisplay/cfag12864b.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/auxdisplay/cfag12864b.ko drivers/auxdisplay/cfag12864b.o drivers/auxdisplay/cfag12864b.mod.o;  true

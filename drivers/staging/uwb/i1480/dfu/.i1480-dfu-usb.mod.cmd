@@ -1,0 +1,1 @@
+cmd_drivers/staging/uwb/i1480/dfu/i1480-dfu-usb.mod := { echo  drivers/staging/uwb/i1480/dfu/dfu.o drivers/staging/uwb/i1480/dfu/mac.o drivers/staging/uwb/i1480/dfu/phy.o drivers/staging/uwb/i1480/dfu/usb.o; echo; } > drivers/staging/uwb/i1480/dfu/i1480-dfu-usb.mod

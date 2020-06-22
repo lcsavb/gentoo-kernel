@@ -1,0 +1,1 @@
+cmd_drivers/iio/accel/bmc150-accel-spi.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/accel/bmc150-accel-spi.ko drivers/iio/accel/bmc150-accel-spi.o drivers/iio/accel/bmc150-accel-spi.mod.o;  true

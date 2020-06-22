@@ -1,0 +1,1 @@
+cmd_drivers/i2c/muxes/i2c-mux-mlxcpld.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/i2c/muxes/i2c-mux-mlxcpld.ko drivers/i2c/muxes/i2c-mux-mlxcpld.o drivers/i2c/muxes/i2c-mux-mlxcpld.mod.o;  true

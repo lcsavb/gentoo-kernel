@@ -1,0 +1,1 @@
+cmd_drivers/vfio/pci/vfio-pci.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/vfio/pci/vfio-pci.o drivers/vfio/pci/vfio_pci.o drivers/vfio/pci/vfio_pci_intrs.o drivers/vfio/pci/vfio_pci_rdwr.o drivers/vfio/pci/vfio_pci_config.o drivers/vfio/pci/vfio_pci_igd.o

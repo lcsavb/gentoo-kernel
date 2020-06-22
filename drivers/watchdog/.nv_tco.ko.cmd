@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/nv_tco.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/watchdog/nv_tco.ko drivers/watchdog/nv_tco.o drivers/watchdog/nv_tco.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/memstick/host/rtsx_usb_ms.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/memstick/host/rtsx_usb_ms.ko drivers/memstick/host/rtsx_usb_ms.o drivers/memstick/host/rtsx_usb_ms.mod.o;  true

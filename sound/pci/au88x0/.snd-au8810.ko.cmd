@@ -1,0 +1,1 @@
+cmd_sound/pci/au88x0/snd-au8810.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/pci/au88x0/snd-au8810.ko sound/pci/au88x0/snd-au8810.o sound/pci/au88x0/snd-au8810.mod.o;  true

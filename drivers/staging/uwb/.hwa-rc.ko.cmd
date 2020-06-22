@@ -1,0 +1,1 @@
+cmd_drivers/staging/uwb/hwa-rc.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/staging/uwb/hwa-rc.ko drivers/staging/uwb/hwa-rc.o drivers/staging/uwb/hwa-rc.mod.o;  true

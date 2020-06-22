@@ -1,0 +1,1 @@
+cmd_drivers/usb/roles/intel-xhci-usb-role-switch.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/usb/roles/intel-xhci-usb-role-switch.ko drivers/usb/roles/intel-xhci-usb-role-switch.o drivers/usb/roles/intel-xhci-usb-role-switch.mod.o;  true

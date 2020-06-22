@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-clevo-mail.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/leds/leds-clevo-mail.ko drivers/leds/leds-clevo-mail.o drivers/leds/leds-clevo-mail.mod.o;  true

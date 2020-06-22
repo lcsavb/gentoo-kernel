@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-zydacron.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hid/hid-zydacron.ko drivers/hid/hid-zydacron.o drivers/hid/hid-zydacron.mod.o;  true

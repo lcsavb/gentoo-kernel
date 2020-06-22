@@ -1,0 +1,1 @@
+cmd_drivers/staging/uwb/whci.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/staging/uwb/whci.ko drivers/staging/uwb/whci.o drivers/staging/uwb/whci.mod.o;  true

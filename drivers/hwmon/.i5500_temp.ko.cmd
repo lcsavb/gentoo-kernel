@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/i5500_temp.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwmon/i5500_temp.ko drivers/hwmon/i5500_temp.o drivers/hwmon/i5500_temp.mod.o;  true

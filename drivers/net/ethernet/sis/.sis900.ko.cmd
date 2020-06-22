@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/sis/sis900.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ethernet/sis/sis900.ko drivers/net/ethernet/sis/sis900.o drivers/net/ethernet/sis/sis900.mod.o;  true

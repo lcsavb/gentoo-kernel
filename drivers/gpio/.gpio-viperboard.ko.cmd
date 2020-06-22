@@ -1,0 +1,1 @@
+cmd_drivers/gpio/gpio-viperboard.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/gpio/gpio-viperboard.ko drivers/gpio/gpio-viperboard.o drivers/gpio/gpio-viperboard.mod.o;  true

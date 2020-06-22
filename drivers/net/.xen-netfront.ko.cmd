@@ -1,0 +1,1 @@
+cmd_drivers/net/xen-netfront.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/xen-netfront.ko drivers/net/xen-netfront.o drivers/net/xen-netfront.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_dup_netdev.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/netfilter/nf_dup_netdev.ko net/netfilter/nf_dup_netdev.o net/netfilter/nf_dup_netdev.mod.o;  true

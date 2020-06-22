@@ -1,0 +1,1 @@
+cmd_drivers/fpga/machxo2-spi.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/fpga/machxo2-spi.ko drivers/fpga/machxo2-spi.o drivers/fpga/machxo2-spi.mod.o;  true

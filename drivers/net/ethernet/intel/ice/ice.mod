@@ -1,0 +1,2 @@
+drivers/net/ethernet/intel/ice/ice_main.o drivers/net/ethernet/intel/ice/ice_controlq.o drivers/net/ethernet/intel/ice/ice_common.o drivers/net/ethernet/intel/ice/ice_nvm.o drivers/net/ethernet/intel/ice/ice_switch.o drivers/net/ethernet/intel/ice/ice_sched.o drivers/net/ethernet/intel/ice/ice_lib.o drivers/net/ethernet/intel/ice/ice_txrx.o drivers/net/ethernet/intel/ice/ice_flex_pipe.o drivers/net/ethernet/intel/ice/ice_ethtool.o
+

@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/icplus.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/phy/icplus.ko drivers/net/phy/icplus.o drivers/net/phy/icplus.mod.o;  true

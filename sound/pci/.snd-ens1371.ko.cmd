@@ -1,0 +1,1 @@
+cmd_sound/pci/snd-ens1371.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/pci/snd-ens1371.ko sound/pci/snd-ens1371.o sound/pci/snd-ens1371.mod.o;  true

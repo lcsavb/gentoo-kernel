@@ -1,0 +1,1 @@
+cmd_drivers/ata/pata_cmd640.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/ata/pata_cmd640.ko drivers/ata/pata_cmd640.o drivers/ata/pata_cmd640.mod.o;  true

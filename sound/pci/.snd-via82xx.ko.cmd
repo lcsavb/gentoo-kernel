@@ -1,0 +1,1 @@
+cmd_sound/pci/snd-via82xx.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/pci/snd-via82xx.ko sound/pci/snd-via82xx.o sound/pci/snd-via82xx.mod.o;  true

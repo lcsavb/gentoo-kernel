@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/pmbus/ucd9200.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwmon/pmbus/ucd9200.ko drivers/hwmon/pmbus/ucd9200.o drivers/hwmon/pmbus/ucd9200.mod.o;  true

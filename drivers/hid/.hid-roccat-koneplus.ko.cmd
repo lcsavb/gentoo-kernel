@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-roccat-koneplus.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hid/hid-roccat-koneplus.ko drivers/hid/hid-roccat-koneplus.o drivers/hid/hid-roccat-koneplus.mod.o;  true

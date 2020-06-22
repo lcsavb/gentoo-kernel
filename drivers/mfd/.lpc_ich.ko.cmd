@@ -1,0 +1,1 @@
+cmd_drivers/mfd/lpc_ich.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mfd/lpc_ich.ko drivers/mfd/lpc_ich.o drivers/mfd/lpc_ich.mod.o;  true

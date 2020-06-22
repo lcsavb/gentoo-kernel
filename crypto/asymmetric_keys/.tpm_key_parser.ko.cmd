@@ -1,0 +1,1 @@
+cmd_crypto/asymmetric_keys/tpm_key_parser.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o crypto/asymmetric_keys/tpm_key_parser.ko crypto/asymmetric_keys/tpm_key_parser.o crypto/asymmetric_keys/tpm_key_parser.mod.o;  true

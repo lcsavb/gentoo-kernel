@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-maltron.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hid/hid-maltron.ko drivers/hid/hid-maltron.o drivers/hid/hid-maltron.mod.o;  true

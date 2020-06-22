@@ -1,0 +1,1 @@
+cmd_drivers/crypto/chelsio/chtls/chtls.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/crypto/chelsio/chtls/chtls.o drivers/crypto/chelsio/chtls/chtls_main.o drivers/crypto/chelsio/chtls/chtls_cm.o drivers/crypto/chelsio/chtls/chtls_io.o drivers/crypto/chelsio/chtls/chtls_hw.o

@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/asc7621.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwmon/asc7621.ko drivers/hwmon/asc7621.o drivers/hwmon/asc7621.mod.o;  true

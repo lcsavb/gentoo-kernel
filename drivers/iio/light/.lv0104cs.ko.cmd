@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/lv0104cs.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/light/lv0104cs.ko drivers/iio/light/lv0104cs.o drivers/iio/light/lv0104cs.mod.o;  true

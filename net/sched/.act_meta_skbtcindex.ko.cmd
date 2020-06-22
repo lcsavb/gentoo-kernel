@@ -1,0 +1,1 @@
+cmd_net/sched/act_meta_skbtcindex.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/sched/act_meta_skbtcindex.ko net/sched/act_meta_skbtcindex.o net/sched/act_meta_skbtcindex.mod.o;  true

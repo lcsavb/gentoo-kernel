@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-cs35l36.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/soc/codecs/snd-soc-cs35l36.ko sound/soc/codecs/snd-soc-cs35l36.o sound/soc/codecs/snd-soc-cs35l36.mod.o;  true

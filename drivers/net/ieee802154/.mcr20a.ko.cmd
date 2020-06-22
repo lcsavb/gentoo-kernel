@@ -1,0 +1,1 @@
+cmd_drivers/net/ieee802154/mcr20a.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ieee802154/mcr20a.ko drivers/net/ieee802154/mcr20a.o drivers/net/ieee802154/mcr20a.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-abx80x.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/rtc/rtc-abx80x.ko drivers/rtc/rtc-abx80x.o drivers/rtc/rtc-abx80x.mod.o;  true

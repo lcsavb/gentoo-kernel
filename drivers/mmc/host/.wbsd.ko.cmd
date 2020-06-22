@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/wbsd.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mmc/host/wbsd.ko drivers/mmc/host/wbsd.o drivers/mmc/host/wbsd.mod.o;  true

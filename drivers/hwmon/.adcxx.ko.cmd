@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/adcxx.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwmon/adcxx.ko drivers/hwmon/adcxx.o drivers/hwmon/adcxx.mod.o;  true

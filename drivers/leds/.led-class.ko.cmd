@@ -1,0 +1,1 @@
+cmd_drivers/leds/led-class.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/leds/led-class.ko drivers/leds/led-class.o drivers/leds/led-class.mod.o;  true

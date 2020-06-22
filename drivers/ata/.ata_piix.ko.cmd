@@ -1,0 +1,1 @@
+cmd_drivers/ata/ata_piix.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/ata/ata_piix.ko drivers/ata/ata_piix.o drivers/ata/ata_piix.mod.o;  true

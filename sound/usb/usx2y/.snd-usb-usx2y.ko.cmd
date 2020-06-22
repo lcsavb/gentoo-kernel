@@ -1,0 +1,1 @@
+cmd_sound/usb/usx2y/snd-usb-usx2y.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/usb/usx2y/snd-usb-usx2y.ko sound/usb/usx2y/snd-usb-usx2y.o sound/usb/usx2y/snd-usb-usx2y.mod.o;  true

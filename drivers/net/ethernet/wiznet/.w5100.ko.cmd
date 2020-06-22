@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/wiznet/w5100.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ethernet/wiznet/w5100.ko drivers/net/ethernet/wiznet/w5100.o drivers/net/ethernet/wiznet/w5100.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/iio/magnetometer/rm3100-core.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/magnetometer/rm3100-core.ko drivers/iio/magnetometer/rm3100-core.o drivers/iio/magnetometer/rm3100-core.mod.o;  true

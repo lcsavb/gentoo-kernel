@@ -1,0 +1,1 @@
+cmd_drivers/scsi/advansys.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/scsi/advansys.ko drivers/scsi/advansys.o drivers/scsi/advansys.mod.o;  true

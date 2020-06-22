@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ath/carl9170/carl9170.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/wireless/ath/carl9170/carl9170.ko drivers/net/wireless/ath/carl9170/carl9170.o drivers/net/wireless/ath/carl9170/carl9170.mod.o;  true

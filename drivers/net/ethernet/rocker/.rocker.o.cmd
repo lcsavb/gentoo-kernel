@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/rocker/rocker.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/net/ethernet/rocker/rocker.o drivers/net/ethernet/rocker/rocker_main.o drivers/net/ethernet/rocker/rocker_tlv.o drivers/net/ethernet/rocker/rocker_ofdpa.o

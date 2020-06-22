@@ -1,0 +1,2 @@
+drivers/crypto/chelsio/chcr.ko
+drivers/crypto/chelsio/chtls/chtls.ko

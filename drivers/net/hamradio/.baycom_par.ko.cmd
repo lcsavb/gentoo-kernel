@@ -1,0 +1,1 @@
+cmd_drivers/net/hamradio/baycom_par.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/hamradio/baycom_par.ko drivers/net/hamradio/baycom_par.o drivers/net/hamradio/baycom_par.mod.o;  true

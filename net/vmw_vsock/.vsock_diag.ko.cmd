@@ -1,0 +1,1 @@
+cmd_net/vmw_vsock/vsock_diag.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/vmw_vsock/vsock_diag.ko net/vmw_vsock/vsock_diag.o net/vmw_vsock/vsock_diag.mod.o;  true

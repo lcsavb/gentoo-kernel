@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/sdhci-xenon-driver.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/mmc/host/sdhci-xenon-driver.o drivers/mmc/host/sdhci-xenon.o drivers/mmc/host/sdhci-xenon-phy.o

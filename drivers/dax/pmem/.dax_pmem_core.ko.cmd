@@ -1,0 +1,1 @@
+cmd_drivers/dax/pmem/dax_pmem_core.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/dax/pmem/dax_pmem_core.ko drivers/dax/pmem/dax_pmem_core.o drivers/dax/pmem/dax_pmem_core.mod.o;  true

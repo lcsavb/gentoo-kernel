@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/grip.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/joystick/grip.ko drivers/input/joystick/grip.o drivers/input/joystick/grip.mod.o;  true

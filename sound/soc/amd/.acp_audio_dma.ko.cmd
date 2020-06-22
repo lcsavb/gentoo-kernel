@@ -1,0 +1,1 @@
+cmd_sound/soc/amd/acp_audio_dma.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/soc/amd/acp_audio_dma.ko sound/soc/amd/acp_audio_dma.o sound/soc/amd/acp_audio_dma.mod.o;  true

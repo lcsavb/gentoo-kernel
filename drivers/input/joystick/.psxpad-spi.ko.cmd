@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/psxpad-spi.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/joystick/psxpad-spi.ko drivers/input/joystick/psxpad-spi.o drivers/input/joystick/psxpad-spi.mod.o;  true

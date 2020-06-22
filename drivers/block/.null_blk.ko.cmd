@@ -1,0 +1,1 @@
+cmd_drivers/block/null_blk.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/block/null_blk.ko drivers/block/null_blk.o drivers/block/null_blk.mod.o;  true

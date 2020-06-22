@@ -1,0 +1,1 @@
+cmd_sound/pci/hda/snd-hda-codec-realtek.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/pci/hda/snd-hda-codec-realtek.ko sound/pci/hda/snd-hda-codec-realtek.o sound/pci/hda/snd-hda-codec-realtek.mod.o;  true

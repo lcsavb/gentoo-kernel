@@ -1,0 +1,1 @@
+cmd_kernel/trace/ring_buffer_benchmark.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o kernel/trace/ring_buffer_benchmark.ko kernel/trace/ring_buffer_benchmark.o kernel/trace/ring_buffer_benchmark.mod.o;  true

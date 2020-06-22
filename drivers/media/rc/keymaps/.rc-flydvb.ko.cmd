@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-flydvb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/rc/keymaps/rc-flydvb.ko drivers/media/rc/keymaps/rc-flydvb.o drivers/media/rc/keymaps/rc-flydvb.mod.o;  true

@@ -1,0 +1,8 @@
+drivers/media/common/videobuf2/videobuf2-common.ko
+drivers/media/common/videobuf2/videobuf2-v4l2.ko
+drivers/media/common/videobuf2/videobuf2-memops.ko
+drivers/media/common/videobuf2/videobuf2-vmalloc.ko
+drivers/media/usb/uvc/uvcvideo.ko
+drivers/media/mc/mc.ko
+drivers/media/v4l2-core/videodev.ko
+drivers/media/v4l2-core/v4l2-dv-timings.ko

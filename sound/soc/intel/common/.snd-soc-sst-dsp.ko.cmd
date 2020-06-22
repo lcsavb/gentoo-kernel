@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/common/snd-soc-sst-dsp.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/soc/intel/common/snd-soc-sst-dsp.ko sound/soc/intel/common/snd-soc-sst-dsp.o sound/soc/intel/common/snd-soc-sst-dsp.mod.o;  true

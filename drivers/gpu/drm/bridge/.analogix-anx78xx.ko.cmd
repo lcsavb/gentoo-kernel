@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/bridge/analogix-anx78xx.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/gpu/drm/bridge/analogix-anx78xx.ko drivers/gpu/drm/bridge/analogix-anx78xx.o drivers/gpu/drm/bridge/analogix-anx78xx.mod.o;  true

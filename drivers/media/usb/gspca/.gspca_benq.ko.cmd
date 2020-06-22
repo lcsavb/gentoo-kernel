@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/gspca_benq.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/usb/gspca/gspca_benq.ko drivers/media/usb/gspca/gspca_benq.o drivers/media/usb/gspca/gspca_benq.mod.o;  true

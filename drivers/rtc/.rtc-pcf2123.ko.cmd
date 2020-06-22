@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-pcf2123.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/rtc/rtc-pcf2123.ko drivers/rtc/rtc-pcf2123.o drivers/rtc/rtc-pcf2123.mod.o;  true

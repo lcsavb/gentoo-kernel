@@ -1,0 +1,1 @@
+cmd_drivers/pci/pcie/aer_inject.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/pci/pcie/aer_inject.ko drivers/pci/pcie/aer_inject.o drivers/pci/pcie/aer_inject.mod.o;  true

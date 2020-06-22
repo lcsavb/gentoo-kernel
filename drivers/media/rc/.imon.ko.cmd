@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/imon.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/rc/imon.ko drivers/media/rc/imon.o drivers/media/rc/imon.mod.o;  true

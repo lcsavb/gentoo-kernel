@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipset/ip_set_list_set.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/netfilter/ipset/ip_set_list_set.ko net/netfilter/ipset/ip_set_list_set.o net/netfilter/ipset/ip_set_list_set.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/can/peak_canfd/peak_pciefd.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/can/peak_canfd/peak_pciefd.ko drivers/net/can/peak_canfd/peak_pciefd.o drivers/net/can/peak_canfd/peak_pciefd.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_cgroup.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/netfilter/xt_cgroup.ko net/netfilter/xt_cgroup.o net/netfilter/xt_cgroup.mod.o;  true

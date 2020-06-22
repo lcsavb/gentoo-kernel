@@ -1,0 +1,1 @@
+cmd_drivers/fpga/fpga-bridge.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/fpga/fpga-bridge.ko drivers/fpga/fpga-bridge.o drivers/fpga/fpga-bridge.mod.o;  true

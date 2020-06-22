@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/mlxreg-fan.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwmon/mlxreg-fan.ko drivers/hwmon/mlxreg-fan.o drivers/hwmon/mlxreg-fan.mod.o;  true

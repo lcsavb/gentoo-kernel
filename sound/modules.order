@@ -1,0 +1,5 @@
+sound/core/seq/snd-seq-midi.ko
+sound/core/seq/snd-seq-midi-event.ko
+sound/core/snd-rawmidi.ko
+sound/usb/snd-usb-audio.ko
+sound/usb/snd-usbmidi-lib.ko

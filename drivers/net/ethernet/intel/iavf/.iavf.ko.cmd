@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/intel/iavf/iavf.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ethernet/intel/iavf/iavf.ko drivers/net/ethernet/intel/iavf/iavf.o drivers/net/ethernet/intel/iavf/iavf.mod.o;  true

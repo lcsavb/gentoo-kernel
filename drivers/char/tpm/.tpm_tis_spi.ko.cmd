@@ -1,0 +1,1 @@
+cmd_drivers/char/tpm/tpm_tis_spi.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/char/tpm/tpm_tis_spi.ko drivers/char/tpm/tpm_tis_spi.o drivers/char/tpm/tpm_tis_spi.mod.o;  true

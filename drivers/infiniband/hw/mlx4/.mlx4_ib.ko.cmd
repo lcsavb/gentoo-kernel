@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/hw/mlx4/mlx4_ib.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/infiniband/hw/mlx4/mlx4_ib.ko drivers/infiniband/hw/mlx4/mlx4_ib.o drivers/infiniband/hw/mlx4/mlx4_ib.mod.o;  true

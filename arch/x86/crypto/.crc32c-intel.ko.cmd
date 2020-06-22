@@ -1,0 +1,1 @@
+cmd_arch/x86/crypto/crc32c-intel.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o arch/x86/crypto/crc32c-intel.ko arch/x86/crypto/crc32c-intel.o arch/x86/crypto/crc32c-intel.mod.o;  true

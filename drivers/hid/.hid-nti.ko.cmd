@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-nti.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hid/hid-nti.ko drivers/hid/hid-nti.o drivers/hid/hid-nti.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_net/ipv4/netfilter/arptable_filter.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/ipv4/netfilter/arptable_filter.ko net/ipv4/netfilter/arptable_filter.o net/ipv4/netfilter/arptable_filter.mod.o;  true

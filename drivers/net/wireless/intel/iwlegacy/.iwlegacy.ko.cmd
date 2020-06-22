@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/intel/iwlegacy/iwlegacy.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/wireless/intel/iwlegacy/iwlegacy.ko drivers/net/wireless/intel/iwlegacy/iwlegacy.o drivers/net/wireless/intel/iwlegacy/iwlegacy.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-bigbenff.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hid/hid-bigbenff.ko drivers/hid/hid-bigbenff.o drivers/hid/hid-bigbenff.mod.o;  true

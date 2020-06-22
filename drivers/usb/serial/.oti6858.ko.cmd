@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/oti6858.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/usb/serial/oti6858.ko drivers/usb/serial/oti6858.o drivers/usb/serial/oti6858.mod.o;  true

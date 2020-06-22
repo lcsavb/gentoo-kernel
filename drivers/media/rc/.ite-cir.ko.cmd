@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/ite-cir.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/rc/ite-cir.ko drivers/media/rc/ite-cir.o drivers/media/rc/ite-cir.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/cpuidle/cpuidle-haltpoll.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/cpuidle/cpuidle-haltpoll.ko drivers/cpuidle/cpuidle-haltpoll.o drivers/cpuidle/cpuidle-haltpoll.mod.o;  true

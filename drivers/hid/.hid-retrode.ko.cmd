@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-retrode.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hid/hid-retrode.ko drivers/hid/hid-retrode.o drivers/hid/hid-retrode.mod.o;  true

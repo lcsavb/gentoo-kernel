@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-fm3130.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/rtc/rtc-fm3130.ko drivers/rtc/rtc-fm3130.o drivers/rtc/rtc-fm3130.mod.o;  true

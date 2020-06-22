@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/pxrc.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/joystick/pxrc.ko drivers/input/joystick/pxrc.o drivers/input/joystick/pxrc.mod.o;  true

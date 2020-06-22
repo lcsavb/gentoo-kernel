@@ -1,0 +1,1 @@
+cmd_drivers/net/dsa/b53/b53_mmap.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/dsa/b53/b53_mmap.ko drivers/net/dsa/b53/b53_mmap.o drivers/net/dsa/b53/b53_mmap.mod.o;  true

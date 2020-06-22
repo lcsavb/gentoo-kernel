@@ -1,0 +1,1 @@
+cmd_drivers/usb/typec/ucsi/ucsi_ccg.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/usb/typec/ucsi/ucsi_ccg.ko drivers/usb/typec/ucsi/ucsi_ccg.o drivers/usb/typec/ucsi/ucsi_ccg.mod.o;  true

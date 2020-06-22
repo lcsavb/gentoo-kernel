@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/vt8231.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwmon/vt8231.ko drivers/hwmon/vt8231.o drivers/hwmon/vt8231.mod.o;  true

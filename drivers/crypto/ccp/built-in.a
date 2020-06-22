@@ -1,0 +1,37 @@
+!<thin>
+//                                              276       `
+sp-dev.o/
+sp-platform.o/
+ccp-dev.o/
+ccp-ops.o/
+ccp-dev-v3.o/
+ccp-dev-v5.o/
+ccp-dmaengine.o/
+sp-pci.o/
+psp-dev.o/
+ccp-crypto-main.o/
+ccp-crypto-aes.o/
+ccp-crypto-aes-cmac.o/
+ccp-crypto-aes-xts.o/
+ccp-crypto-aes-galois.o/
+ccp-crypto-des3.o/
+ccp-crypto-rsa.o/
+ccp-crypto-sha.o/
+
+/0              0           0     0     644     9456      `
+/10             0           0     0     644     6480      `
+/25             0           0     0     644     21640     `
+/36             0           0     0     644     34528     `
+/47             0           0     0     644     15360     `
+/61             0           0     0     644     19592     `
+/75            /0           0     0     644     16536     `
+/92             0           0     0     644     8128      `
+/102            0           0     0     644     27824     `
+/113            0           0     0     644     14640     `
+/132            0           0     0     644     8456      `
+/150            0           0     0     644     9040      `
+/173            0           0     0     644     6880      `
+/195            0           0     0     644     6888      `
+/220            0           0     0     644     6368      `
+/239            0           0     0     644     7640      `
+/257            0           0     0     644     12088     `

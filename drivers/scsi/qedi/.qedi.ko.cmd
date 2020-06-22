@@ -1,0 +1,1 @@
+cmd_drivers/scsi/qedi/qedi.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/scsi/qedi/qedi.ko drivers/scsi/qedi/qedi.o drivers/scsi/qedi/qedi.mod.o;  true

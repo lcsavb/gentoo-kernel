@@ -1,0 +1,1 @@
+cmd_drivers/staging/uwb/umc.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/staging/uwb/umc.o drivers/staging/uwb/umc-bus.o drivers/staging/uwb/umc-dev.o drivers/staging/uwb/umc-drv.o

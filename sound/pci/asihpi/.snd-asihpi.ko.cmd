@@ -1,0 +1,1 @@
+cmd_sound/pci/asihpi/snd-asihpi.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/pci/asihpi/snd-asihpi.ko sound/pci/asihpi/snd-asihpi.o sound/pci/asihpi/snd-asihpi.mod.o;  true

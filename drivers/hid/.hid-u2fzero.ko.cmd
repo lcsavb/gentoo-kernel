@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-u2fzero.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hid/hid-u2fzero.ko drivers/hid/hid-u2fzero.o drivers/hid/hid-u2fzero.mod.o;  true

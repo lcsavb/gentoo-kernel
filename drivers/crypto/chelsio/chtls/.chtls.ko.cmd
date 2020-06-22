@@ -1,0 +1,1 @@
+cmd_drivers/crypto/chelsio/chtls/chtls.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/crypto/chelsio/chtls/chtls.ko drivers/crypto/chelsio/chtls/chtls.o drivers/crypto/chelsio/chtls/chtls.mod.o;  true

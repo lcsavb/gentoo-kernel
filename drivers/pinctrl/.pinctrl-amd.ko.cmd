@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/pinctrl-amd.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/pinctrl/pinctrl-amd.ko drivers/pinctrl/pinctrl-amd.o drivers/pinctrl/pinctrl-amd.mod.o;  true

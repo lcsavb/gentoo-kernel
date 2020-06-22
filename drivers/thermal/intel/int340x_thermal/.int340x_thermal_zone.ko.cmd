@@ -1,0 +1,1 @@
+cmd_drivers/thermal/intel/int340x_thermal/int340x_thermal_zone.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/thermal/intel/int340x_thermal/int340x_thermal_zone.ko drivers/thermal/intel/int340x_thermal/int340x_thermal_zone.o drivers/thermal/intel/int340x_thermal/int340x_thermal_zone.mod.o;  true

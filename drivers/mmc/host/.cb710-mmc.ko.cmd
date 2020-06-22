@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/cb710-mmc.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mmc/host/cb710-mmc.ko drivers/mmc/host/cb710-mmc.o drivers/mmc/host/cb710-mmc.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/crypto/atmel-i2c.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/crypto/atmel-i2c.ko drivers/crypto/atmel-i2c.o drivers/crypto/atmel-i2c.mod.o;  true

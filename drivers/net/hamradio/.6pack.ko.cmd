@@ -1,0 +1,1 @@
+cmd_drivers/net/hamradio/6pack.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/hamradio/6pack.ko drivers/net/hamradio/6pack.o drivers/net/hamradio/6pack.mod.o;  true

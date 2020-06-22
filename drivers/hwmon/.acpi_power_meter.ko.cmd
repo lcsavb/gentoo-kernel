@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/acpi_power_meter.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwmon/acpi_power_meter.ko drivers/hwmon/acpi_power_meter.o drivers/hwmon/acpi_power_meter.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/acpi/acpi_ipmi.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/acpi/acpi_ipmi.ko drivers/acpi/acpi_ipmi.o drivers/acpi/acpi_ipmi.mod.o;  true

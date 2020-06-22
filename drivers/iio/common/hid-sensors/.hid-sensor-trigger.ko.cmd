@@ -1,0 +1,1 @@
+cmd_drivers/iio/common/hid-sensors/hid-sensor-trigger.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/common/hid-sensors/hid-sensor-trigger.ko drivers/iio/common/hid-sensors/hid-sensor-trigger.o drivers/iio/common/hid-sensors/hid-sensor-trigger.mod.o;  true

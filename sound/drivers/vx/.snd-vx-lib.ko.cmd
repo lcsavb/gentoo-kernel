@@ -1,0 +1,1 @@
+cmd_sound/drivers/vx/snd-vx-lib.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/drivers/vx/snd-vx-lib.ko sound/drivers/vx/snd-vx-lib.o sound/drivers/vx/snd-vx-lib.mod.o;  true

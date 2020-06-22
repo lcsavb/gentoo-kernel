@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/tm6000/tm6000-alsa.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/usb/tm6000/tm6000-alsa.ko drivers/media/usb/tm6000/tm6000-alsa.o drivers/media/usb/tm6000/tm6000-alsa.mod.o;  true

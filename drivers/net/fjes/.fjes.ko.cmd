@@ -1,0 +1,1 @@
+cmd_drivers/net/fjes/fjes.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/fjes/fjes.ko drivers/net/fjes/fjes.o drivers/net/fjes/fjes.mod.o;  true

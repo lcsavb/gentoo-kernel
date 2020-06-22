@@ -1,0 +1,1 @@
+cmd_drivers/edac/ie31200_edac.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/edac/ie31200_edac.ko drivers/edac/ie31200_edac.o drivers/edac/ie31200_edac.mod.o;  true

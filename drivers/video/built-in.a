@@ -1,0 +1,51 @@
+!<thin>
+//                                              508       `
+hdmi.o/
+console/dummycon.o/
+console/vgacon.o/
+logo/logo.o/
+logo/logo_linux_mono.o/
+backlight/backlight.o/
+backlight/generic_bl.o/
+fbdev/core/fb_cmdline.o/
+fbdev/core/fb_notify.o/
+fbdev/core/fbmem.o/
+fbdev/core/fbmon.o/
+fbdev/core/fbcmap.o/
+fbdev/core/fbsysfs.o/
+fbdev/core/modedb.o/
+fbdev/core/fbcvt.o/
+fbdev/core/fb_defio.o/
+fbdev/core/fbcon.o/
+fbdev/core/bitblit.o/
+fbdev/core/softcursor.o/
+fbdev/core/tileblit.o/
+fbdev/core/cfbfillrect.o/
+fbdev/core/cfbcopyarea.o/
+fbdev/core/cfbimgblt.o/
+fbdev/efifb.o/
+
+/0              0           0     0     644     37256     `
+/8              0           0     0     644     4520      `
+/28             0           0     0     644     40416     `
+/46             0           0     0     644     3792      `
+/59             0           0     0     644     2136      `
+/83             0           0     0     644     25440     `
+/106            0           0     0     644     6336      `
+/130            0           0     0     644     5328      `
+/155            0           0     0     644     3832      `
+/179            0           0     0     644     50000     `
+/199            0           0     0     644     21344     `
+/219            0           0     0     644     11616     `
+/240            0           0     0     644     15376     `
+/262            0           0     0     644     25768     `
+/283            0           0     0     644     5768      `
+/303            0           0     0     644     11560     `
+/326            0           0     0     644     81392     `
+/346            0           0     0     644     9520      `
+/368            0           0     0     644     3192      `
+/393            0           0     0     644     5536      `
+/416            0           0     0     644     9024      `
+/442            0           0     0     644     5424      `
+/468            0           0     0     644     4808      `
+/492            0           0     0     644     17752     `

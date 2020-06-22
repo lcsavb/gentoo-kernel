@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-imon-mce.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/rc/keymaps/rc-imon-mce.ko drivers/media/rc/keymaps/rc-imon-mce.o drivers/media/rc/keymaps/rc-imon-mce.mod.o;  true

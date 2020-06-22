@@ -1,0 +1,1 @@
+cmd_drivers/net/netconsole.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/netconsole.ko drivers/net/netconsole.o drivers/net/netconsole.mod.o;  true

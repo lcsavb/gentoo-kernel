@@ -1,0 +1,1 @@
+cmd_fs/nls/mac-centeuro.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o fs/nls/mac-centeuro.ko fs/nls/mac-centeuro.o fs/nls/mac-centeuro.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-fusionhdtv-mce.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/rc/keymaps/rc-fusionhdtv-mce.ko drivers/media/rc/keymaps/rc-fusionhdtv-mce.o drivers/media/rc/keymaps/rc-fusionhdtv-mce.mod.o;  true

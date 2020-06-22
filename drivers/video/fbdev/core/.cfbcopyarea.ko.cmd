@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/core/cfbcopyarea.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/video/fbdev/core/cfbcopyarea.ko drivers/video/fbdev/core/cfbcopyarea.o drivers/video/fbdev/core/cfbcopyarea.mod.o;  true

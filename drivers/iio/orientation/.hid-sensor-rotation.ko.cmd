@@ -1,0 +1,1 @@
+cmd_drivers/iio/orientation/hid-sensor-rotation.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/orientation/hid-sensor-rotation.ko drivers/iio/orientation/hid-sensor-rotation.o drivers/iio/orientation/hid-sensor-rotation.mod.o;  true

@@ -1,0 +1,50 @@
+!<thin>
+//                                              396       `
+mem.o/
+random.o/
+misc.o/
+hpet.o/
+nvram.o/
+hw_random/core.o/
+hw_random/amd-rng.o/
+hw_random/via-rng.o/
+tpm/tpm-chip.o/
+tpm/tpm-dev-common.o/
+tpm/tpm-dev.o/
+tpm/tpm-interface.o/
+tpm/tpm1-cmd.o/
+tpm/tpm2-cmd.o/
+tpm/tpmrm-dev.o/
+tpm/tpm2-space.o/
+tpm/tpm-sysfs.o/
+tpm/eventlog/common.o/
+tpm/eventlog/tpm1.o/
+tpm/eventlog/tpm2.o/
+tpm/tpm_ppi.o/
+tpm/eventlog/acpi.o/
+tpm/eventlog/efi.o/
+tpm/tpm_crb.o/
+/0              0           0     0     644     17296     `
+/7              0           0     0     644     113984    `
+/17             0           0     0     644     11016     `
+/25             0           0     0     644     19936     `
+/33             0           0     0     644     17712     `
+/42             0           0     0     644     26304     `
+/60             0           0     0     644     8144      `
+/81             0           0     0     644     7080      `
+/102            0           0     0     644     19000     `
+/118            0           0     0     644     9352      `
+/140            0           0     0     644     3216      `
+/155           /0           0     0     644     21656     `
+/176            0           0     0     644     16840     `
+/192            0           0     0     644     25832     `
+/208            0           0     0     644     3136      `
+/225            0           0     0     644     12152     `
+/243            0           0     0     644     13608     `
+/260            0           0     0     644     4992      `
+/283            0           0     0     644     7536      `
+/304            0           0     0     644     4592      `
+/325            0           0     0     644     11416     `
+/340            0           0     0     644     3160      `
+/361            0           0     0     644     3616      `
+/381            0           0     0     644     17720     `

@@ -1,0 +1,1 @@
+cmd_drivers/tty/serial/jsm/jsm.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/tty/serial/jsm/jsm.ko drivers/tty/serial/jsm/jsm.o drivers/tty/serial/jsm/jsm.mod.o;  true

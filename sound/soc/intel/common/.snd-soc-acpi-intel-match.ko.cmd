@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/common/snd-soc-acpi-intel-match.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/soc/intel/common/snd-soc-acpi-intel-match.ko sound/soc/intel/common/snd-soc-acpi-intel-match.o sound/soc/intel/common/snd-soc-acpi-intel-match.mod.o;  true

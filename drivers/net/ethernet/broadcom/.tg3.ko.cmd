@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/broadcom/tg3.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ethernet/broadcom/tg3.ko drivers/net/ethernet/broadcom/tg3.o drivers/net/ethernet/broadcom/tg3.mod.o;  true

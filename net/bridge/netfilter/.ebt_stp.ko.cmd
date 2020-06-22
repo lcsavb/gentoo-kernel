@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/ebt_stp.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/bridge/netfilter/ebt_stp.ko net/bridge/netfilter/ebt_stp.o net/bridge/netfilter/ebt_stp.mod.o;  true

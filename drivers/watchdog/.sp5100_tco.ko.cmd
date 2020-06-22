@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/sp5100_tco.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/watchdog/sp5100_tco.ko drivers/watchdog/sp5100_tco.o drivers/watchdog/sp5100_tco.mod.o;  true

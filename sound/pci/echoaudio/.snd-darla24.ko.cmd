@@ -1,0 +1,1 @@
+cmd_sound/pci/echoaudio/snd-darla24.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/pci/echoaudio/snd-darla24.ko sound/pci/echoaudio/snd-darla24.o sound/pci/echoaudio/snd-darla24.mod.o;  true

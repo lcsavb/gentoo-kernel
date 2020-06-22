@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/i915/built-in.a := rm -f drivers/gpu/drm/i915/built-in.a; ar cDPrST drivers/gpu/drm/i915/built-in.a drivers/gpu/drm/i915/gt/built-in.a drivers/gpu/drm/i915/gem/built-in.a drivers/gpu/drm/i915/gt/uc/built-in.a drivers/gpu/drm/i915/display/built-in.a drivers/gpu/drm/i915/oa/built-in.a

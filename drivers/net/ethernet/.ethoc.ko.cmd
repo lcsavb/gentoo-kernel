@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/ethoc.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ethernet/ethoc.ko drivers/net/ethernet/ethoc.o drivers/net/ethernet/ethoc.mod.o;  true

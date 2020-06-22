@@ -1,0 +1,1 @@
+cmd_drivers/tty/serial/arc_uart.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/tty/serial/arc_uart.ko drivers/tty/serial/arc_uart.o drivers/tty/serial/arc_uart.mod.o;  true

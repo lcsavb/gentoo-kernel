@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/realtek/rtlwifi/rtl_pci.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/wireless/realtek/rtlwifi/rtl_pci.ko drivers/net/wireless/realtek/rtlwifi/rtl_pci.o drivers/net/wireless/realtek/rtlwifi/rtl_pci.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/chelsio/libcxgb/libcxgb.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/net/ethernet/chelsio/libcxgb/libcxgb.o drivers/net/ethernet/chelsio/libcxgb/libcxgb_ppm.o drivers/net/ethernet/chelsio/libcxgb/libcxgb_cm.o

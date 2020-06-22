@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-elan.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hid/hid-elan.ko drivers/hid/hid-elan.o drivers/hid/hid-elan.mod.o;  true

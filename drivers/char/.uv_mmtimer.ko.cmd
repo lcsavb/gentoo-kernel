@@ -1,0 +1,1 @@
+cmd_drivers/char/uv_mmtimer.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/char/uv_mmtimer.ko drivers/char/uv_mmtimer.o drivers/char/uv_mmtimer.mod.o;  true

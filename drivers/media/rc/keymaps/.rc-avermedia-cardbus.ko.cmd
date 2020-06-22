@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-avermedia-cardbus.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/rc/keymaps/rc-avermedia-cardbus.ko drivers/media/rc/keymaps/rc-avermedia-cardbus.o drivers/media/rc/keymaps/rc-avermedia-cardbus.mod.o;  true

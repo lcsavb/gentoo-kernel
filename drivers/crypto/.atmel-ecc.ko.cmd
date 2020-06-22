@@ -1,0 +1,1 @@
+cmd_drivers/crypto/atmel-ecc.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/crypto/atmel-ecc.ko drivers/crypto/atmel-ecc.o drivers/crypto/atmel-ecc.mod.o;  true

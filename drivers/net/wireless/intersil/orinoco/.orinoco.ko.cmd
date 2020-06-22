@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/intersil/orinoco/orinoco.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/wireless/intersil/orinoco/orinoco.ko drivers/net/wireless/intersil/orinoco/orinoco.o drivers/net/wireless/intersil/orinoco/orinoco.mod.o;  true

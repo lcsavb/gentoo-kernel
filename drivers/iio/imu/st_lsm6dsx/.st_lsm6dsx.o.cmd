@@ -1,0 +1,1 @@
+cmd_drivers/iio/imu/st_lsm6dsx/st_lsm6dsx.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/iio/imu/st_lsm6dsx/st_lsm6dsx.o drivers/iio/imu/st_lsm6dsx/st_lsm6dsx_core.o drivers/iio/imu/st_lsm6dsx/st_lsm6dsx_buffer.o drivers/iio/imu/st_lsm6dsx/st_lsm6dsx_shub.o

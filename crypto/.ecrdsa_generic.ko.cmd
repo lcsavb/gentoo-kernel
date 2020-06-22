@@ -1,0 +1,1 @@
+cmd_crypto/ecrdsa_generic.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o crypto/ecrdsa_generic.ko crypto/ecrdsa_generic.o crypto/ecrdsa_generic.mod.o;  true

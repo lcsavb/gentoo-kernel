@@ -1,0 +1,1 @@
+cmd_sound/firewire/bebob/snd-bebob.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/firewire/bebob/snd-bebob.ko sound/firewire/bebob/snd-bebob.o sound/firewire/bebob/snd-bebob.mod.o;  true

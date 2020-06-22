@@ -1,0 +1,1 @@
+cmd_sound/pci/echoaudio/snd-indigoio.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/pci/echoaudio/snd-indigoio.ko sound/pci/echoaudio/snd-indigoio.o sound/pci/echoaudio/snd-indigoio.mod.o;  true

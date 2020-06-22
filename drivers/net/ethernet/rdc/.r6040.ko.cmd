@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/rdc/r6040.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ethernet/rdc/r6040.ko drivers/net/ethernet/rdc/r6040.o drivers/net/ethernet/rdc/r6040.mod.o;  true

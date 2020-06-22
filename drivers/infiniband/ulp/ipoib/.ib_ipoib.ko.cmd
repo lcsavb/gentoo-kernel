@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/ulp/ipoib/ib_ipoib.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/infiniband/ulp/ipoib/ib_ipoib.ko drivers/infiniband/ulp/ipoib/ib_ipoib.o drivers/infiniband/ulp/ipoib/ib_ipoib.mod.o;  true

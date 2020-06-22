@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/soc_button_array.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/misc/soc_button_array.ko drivers/input/misc/soc_button_array.o drivers/input/misc/soc_button_array.mod.o;  true

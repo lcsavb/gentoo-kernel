@@ -1,0 +1,1 @@
+cmd_net/sched/act_ctinfo.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/sched/act_ctinfo.ko net/sched/act_ctinfo.o net/sched/act_ctinfo.mod.o;  true

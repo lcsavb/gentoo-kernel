@@ -1,0 +1,1 @@
+cmd_drivers/fpga/altera-cvp.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/fpga/altera-cvp.ko drivers/fpga/altera-cvp.o drivers/fpga/altera-cvp.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/walkera0701.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/joystick/walkera0701.ko drivers/input/joystick/walkera0701.o drivers/input/joystick/walkera0701.mod.o;  true

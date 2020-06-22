@@ -1,0 +1,1 @@
+cmd_drivers/vfio/vfio_virqfd.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/vfio/vfio_virqfd.ko drivers/vfio/vfio_virqfd.o drivers/vfio/vfio_virqfd.mod.o;  true

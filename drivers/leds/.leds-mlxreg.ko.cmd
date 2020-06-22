@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-mlxreg.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/leds/leds-mlxreg.ko drivers/leds/leds-mlxreg.o drivers/leds/leds-mlxreg.mod.o;  true

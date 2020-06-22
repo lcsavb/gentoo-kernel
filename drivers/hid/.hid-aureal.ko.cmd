@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-aureal.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hid/hid-aureal.ko drivers/hid/hid-aureal.o drivers/hid/hid-aureal.mod.o;  true

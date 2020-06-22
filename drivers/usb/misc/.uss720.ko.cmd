@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/uss720.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/usb/misc/uss720.ko drivers/usb/misc/uss720.o drivers/usb/misc/uss720.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/cpia2/cpia2.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/usb/cpia2/cpia2.ko drivers/media/usb/cpia2/cpia2.o drivers/media/usb/cpia2/cpia2.mod.o;  true

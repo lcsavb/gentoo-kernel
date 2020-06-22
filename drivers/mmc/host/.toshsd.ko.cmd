@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/toshsd.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mmc/host/toshsd.ko drivers/mmc/host/toshsd.o drivers/mmc/host/toshsd.mod.o;  true

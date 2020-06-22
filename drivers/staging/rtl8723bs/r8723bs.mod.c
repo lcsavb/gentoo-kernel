@@ -1,0 +1,193 @@
+#include <linux/build-salt.h>
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(.gnu.linkonce.this_module) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+MODULE_INFO(staging, "Y");
+
+static const struct modversion_info ____versions[]
+__used __section(__versions) = {
+	{ 0xa0de0e08, "module_layout" },
+	{ 0xcaaa1ee, "register_netdevice" },
+	{ 0x2a83ff05, "sdio_writeb" },
+	{ 0x9303e35d, "sdio_readb" },
+	{ 0x2d3385d3, "system_wq" },
+	{ 0x7aea09cb, "kmalloc_caches" },
+	{ 0xeb233a45, "__kmalloc" },
+	{ 0xc4f0da12, "ktime_get_with_offset" },
+	{ 0xf9a482f9, "msleep" },
+	{ 0x8133c67d, "complete_and_exit" },
+	{ 0x631a8ac6, "wiphy_free" },
+	{ 0x9c9bdf0b, "cfg80211_unlink_bss" },
+	{ 0xebc0c847, "cfg80211_connect_done" },
+	{ 0xd6ee688f, "vmalloc" },
+	{ 0x946cfd49, "param_ops_int" },
+	{ 0x754d539c, "strlen" },
+	{ 0x9c64fbd, "ieee80211_frequency_to_channel" },
+	{ 0x79aa04a2, "get_random_bytes" },
+	{ 0x36d63b58, "find_vpid" },
+	{ 0xa477cd94, "sdio_enable_func" },
+	{ 0xa25a1b78, "sdio_claim_irq" },
+	{ 0xf989a9e1, "netif_carrier_on" },
+	{ 0xb3635b01, "_raw_spin_lock_bh" },
+	{ 0xa7d8c473, "skb_clone" },
+	{ 0x49ef6e97, "skb_copy" },
+	{ 0xdf566a59, "__x86_indirect_thunk_r9" },
+	{ 0x906f8c9f, "seq_printf" },
+	{ 0xd2da1048, "register_netdevice_notifier" },
+	{ 0x29561594, "netif_carrier_off" },
+	{ 0x56470118, "__warn_printk" },
+	{ 0x3c12dfe, "cancel_work_sync" },
+	{ 0x66b4cc41, "kmemdup" },
+	{ 0xc29957c3, "__x86_indirect_thunk_rcx" },
+	{ 0x6de7646f, "cfg80211_rx_mgmt" },
+	{ 0x2dff511, "filp_close" },
+	{ 0x5c4b6f47, "__dev_kfree_skb_any" },
+	{ 0xeae3dfd6, "__const_udelay" },
+	{ 0xc6f46339, "init_timer_key" },
+	{ 0x409bcb62, "mutex_unlock" },
+	{ 0x85df9b6c, "strsep" },
+	{ 0x999e8297, "vfree" },
+	{ 0x4629334c, "__preempt_count" },
+	{ 0x3c3ff9fd, "sprintf" },
+	{ 0x1a281859, "pv_ops" },
+	{ 0x7e3ad502, "kthread_create_on_node" },
+	{ 0x15ba50a6, "jiffies" },
+	{ 0x9d0d6206, "unregister_netdevice_notifier" },
+	{ 0xe2d5255a, "strcmp" },
+	{ 0x6eecf0d3, "cfg80211_mgmt_tx_status" },
+	{ 0x1d1190e2, "__netdev_alloc_skb" },
+	{ 0x3861cb79, "netif_rx" },
+	{ 0xd9a5ea54, "__init_waitqueue_head" },
+	{ 0x6b10bee1, "_copy_to_user" },
+	{ 0x8249512, "iwe_stream_add_point" },
+	{ 0x6de13801, "wait_for_completion" },
+	{ 0xfe42d23b, "kernel_read" },
+	{ 0x911b2ef5, "param_ops_charp" },
+	{ 0x359ecbd9, "sdio_writel" },
+	{ 0x97934ecf, "del_timer_sync" },
+	{ 0xfb578fc5, "memset" },
+	{ 0x5c6ce521, "netif_tx_wake_queue" },
+	{ 0x83fd15b4, "netif_tx_stop_all_queues" },
+	{ 0x3812050a, "_raw_spin_unlock_irqrestore" },
+	{ 0x712e52f7, "current_task" },
+	{ 0x7adb4639, "cfg80211_get_bss" },
+	{ 0x37befc70, "jiffies_to_msecs" },
+	{ 0xb5136dc7, "mutex_lock_interruptible" },
+	{ 0x977f511b, "__mutex_init" },
+	{ 0xc5850110, "printk" },
+	{ 0xbcab6ee6, "sscanf" },
+	{ 0xe1537255, "__list_del_entry_valid" },
+	{ 0x449ad0a7, "memcmp" },
+	{ 0x262e823a, "wait_for_completion_interruptible" },
+	{ 0x2188ee41, "free_netdev" },
+	{ 0xa36fd63d, "wiphy_unregister" },
+	{ 0xe7b00dfb, "__x86_indirect_thunk_r13" },
+	{ 0xfaef0ed, "__tasklet_schedule" },
+	{ 0xa1c76e0a, "_cond_resched" },
+	{ 0x9166fada, "strncpy" },
+	{ 0x6d495207, "register_netdev" },
+	{ 0xcf0afa76, "sdio_readl" },
+	{ 0xffe34679, "cfg80211_del_sta_sinfo" },
+	{ 0x59e104af, "ieee80211_get_channel" },
+	{ 0xdcf6a8c, "skb_push" },
+	{ 0x2ab7989d, "mutex_lock" },
+	{ 0x652032cb, "mac_pton" },
+	{ 0xd71f451a, "cfg80211_michael_mic_failure" },
+	{ 0xa70c367e, "wiphy_apply_custom_regulatory" },
+	{ 0x9545af6d, "tasklet_init" },
+	{ 0xc38c83b8, "mod_timer" },
+	{ 0x8ce21f2, "kill_pid" },
+	{ 0xc8ea9852, "skb_pull" },
+	{ 0xf99bd01f, "cfg80211_ibss_joined" },
+	{ 0x68f31cbd, "__list_add_valid" },
+	{ 0x82072614, "tasklet_kill" },
+	{ 0xbd048300, "flush_signals" },
+	{ 0xf9c42cdc, "sdio_unregister_driver" },
+	{ 0xc6e30bfa, "netif_device_attach" },
+	{ 0x40a9b349, "vzalloc" },
+	{ 0x8e4fc03d, "cfg80211_roamed" },
+	{ 0xaeedd606, "cfg80211_put_bss" },
+	{ 0xa916b694, "strnlen" },
+	{ 0x97b32b8d, "wiphy_register" },
+	{ 0x49c41a57, "_raw_spin_unlock_bh" },
+	{ 0xc91dbfe1, "sdio_release_irq" },
+	{ 0xdecd0b29, "__stack_chk_fail" },
+	{ 0xa70ae6c5, "wiphy_new_nm" },
+	{ 0x2ea2c95c, "__x86_indirect_thunk_rax" },
+	{ 0x271ec786, "eth_type_trans" },
+	{ 0xbba1bf59, "sdio_f0_readb" },
+	{ 0x73fbc420, "wake_up_process" },
+	{ 0xbdfb6dbb, "__fentry__" },
+	{ 0xcbd4898c, "fortify_panic" },
+	{ 0x54b1ba53, "cfg80211_disconnected" },
+	{ 0xa0012449, "kmem_cache_alloc_trace" },
+	{ 0xdbf17652, "_raw_spin_lock" },
+	{ 0x51760917, "_raw_spin_lock_irqsave" },
+	{ 0x101e3f11, "unregister_netdevice_queue" },
+	{ 0x8394aa47, "cfg80211_new_sta" },
+	{ 0xc0270a2c, "sdio_memcpy_toio" },
+	{ 0x37a0cba, "kfree" },
+	{ 0x69acdf38, "memcpy" },
+	{ 0x6df1aaf1, "kernel_sigaction" },
+	{ 0xc9a5b82d, "dev_alloc_name" },
+	{ 0x579d15e3, "request_firmware" },
+	{ 0x7a4497db, "kzfree" },
+	{ 0xe35f4972, "unregister_netdev" },
+	{ 0xc5b6f236, "queue_work_on" },
+	{ 0x29361773, "complete" },
+	{ 0x656e4a6e, "snprintf" },
+	{ 0xb32e2de3, "sdio_register_driver" },
+	{ 0xb68bc4fd, "sdio_memcpy_fromio" },
+	{ 0xbf328a43, "sdio_claim_host" },
+	{ 0x85670f1d, "rtnl_is_locked" },
+	{ 0x7f02188f, "__msecs_to_jiffies" },
+	{ 0x7b9bcae3, "cfg80211_scan_done" },
+	{ 0x4cba441d, "iwe_stream_add_event" },
+	{ 0xffea6bc9, "skb_put" },
+	{ 0x4d1ff60a, "wait_for_completion_timeout" },
+	{ 0x13c49cc2, "_copy_from_user" },
+	{ 0x1159a640, "param_ops_uint" },
+	{ 0xed958540, "skb_copy_bits" },
+	{ 0x19338a90, "sdio_set_block_size" },
+	{ 0xa4d6f89a, "release_firmware" },
+	{ 0x9e7d6bd0, "__udelay" },
+	{ 0x88db9f48, "__check_object_size" },
+	{ 0x760a0f4f, "yield" },
+	{ 0x16b8692a, "sdio_disable_func" },
+	{ 0x96474462, "sdio_release_host" },
+	{ 0x513b4f42, "filp_open" },
+	{ 0x272adf6c, "alloc_etherdev_mqs" },
+	{ 0x4d4ba09a, "cfg80211_inform_bss_frame_data" },
+};
+
+MODULE_INFO(depends, "mmc_core,cfg80211");
+
+MODULE_ALIAS("sdio:c*v024Cd0523*");
+MODULE_ALIAS("sdio:c*v024Cd0525*");
+MODULE_ALIAS("sdio:c*v024Cd0623*");
+MODULE_ALIAS("sdio:c*v024Cd0626*");
+MODULE_ALIAS("sdio:c*v024CdB723*");
+
+MODULE_INFO(srcversion, "8BB7C926BF96A37B4A7EDCF");

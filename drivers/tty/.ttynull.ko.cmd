@@ -1,0 +1,1 @@
+cmd_drivers/tty/ttynull.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/tty/ttynull.ko drivers/tty/ttynull.o drivers/tty/ttynull.mod.o;  true

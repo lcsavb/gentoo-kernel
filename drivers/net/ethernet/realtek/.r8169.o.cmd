@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/realtek/r8169.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/net/ethernet/realtek/r8169.o drivers/net/ethernet/realtek/r8169_main.o drivers/net/ethernet/realtek/r8169_firmware.o

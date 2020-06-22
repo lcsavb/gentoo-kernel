@@ -1,0 +1,1 @@
+cmd_drivers/nfc/pn533/pn533_usb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/nfc/pn533/pn533_usb.ko drivers/nfc/pn533/pn533_usb.o drivers/nfc/pn533/pn533_usb.mod.o;  true

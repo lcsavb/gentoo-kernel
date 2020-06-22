@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/winbond-cir.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/rc/winbond-cir.ko drivers/media/rc/winbond-cir.o drivers/media/rc/winbond-cir.mod.o;  true

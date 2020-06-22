@@ -1,0 +1,1 @@
+cmd_sound/i2c/other/snd-ak4xxx-adda.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/i2c/other/snd-ak4xxx-adda.ko sound/i2c/other/snd-ak4xxx-adda.o sound/i2c/other/snd-ak4xxx-adda.mod.o;  true

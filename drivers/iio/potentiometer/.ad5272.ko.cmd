@@ -1,0 +1,1 @@
+cmd_drivers/iio/potentiometer/ad5272.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/potentiometer/ad5272.ko drivers/iio/potentiometer/ad5272.o drivers/iio/potentiometer/ad5272.mod.o;  true

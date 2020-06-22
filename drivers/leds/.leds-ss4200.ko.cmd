@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-ss4200.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/leds/leds-ss4200.ko drivers/leds/leds-ss4200.o drivers/leds/leds-ss4200.mod.o;  true

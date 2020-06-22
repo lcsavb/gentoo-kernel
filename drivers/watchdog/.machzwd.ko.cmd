@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/machzwd.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/watchdog/machzwd.ko drivers/watchdog/machzwd.o drivers/watchdog/machzwd.mod.o;  true

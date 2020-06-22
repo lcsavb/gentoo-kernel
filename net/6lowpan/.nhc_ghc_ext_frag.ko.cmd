@@ -1,0 +1,1 @@
+cmd_net/6lowpan/nhc_ghc_ext_frag.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/6lowpan/nhc_ghc_ext_frag.ko net/6lowpan/nhc_ghc_ext_frag.o net/6lowpan/nhc_ghc_ext_frag.mod.o;  true

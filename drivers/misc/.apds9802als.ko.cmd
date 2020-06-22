@@ -1,0 +1,1 @@
+cmd_drivers/misc/apds9802als.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/misc/apds9802als.ko drivers/misc/apds9802als.o drivers/misc/apds9802als.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/cx231xx/cx231xx-alsa.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/usb/cx231xx/cx231xx-alsa.ko drivers/media/usb/cx231xx/cx231xx-alsa.o drivers/media/usb/cx231xx/cx231xx-alsa.mod.o;  true
