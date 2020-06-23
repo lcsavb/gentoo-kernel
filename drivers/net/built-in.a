@@ -1,11 +1,12 @@
 !<thin>
-//                                              58        `
+//                                              64        `
 Space.o/
 loopback.o/
 netconsole.o/
 phy/mdio-boardinfo.o/
-
+tun.o/
 /0              0           0     0     644     2944      `
 /9              0           0     0     644     11720     `
 /21             0           0     0     644     15240     `
 /35             0           0     0     644     4704      `
+/57             0           0     0     644     80144     `

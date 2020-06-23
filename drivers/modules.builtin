@@ -74,6 +74,7 @@ drivers/input/serio/libps2.ko
 drivers/iommu/iova.ko
 drivers/iommu/amd_iommu_v2.ko
 drivers/net/netconsole.ko
+drivers/net/tun.ko
 drivers/nvme/host/nvme-core.ko
 drivers/nvme/host/nvme.ko
 drivers/pcmcia/pcmcia_core.ko

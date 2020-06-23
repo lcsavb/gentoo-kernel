@@ -1,1 +1,1 @@
-#define UTS_RELEASE "5.4.38-gentoo"
+#define UTS_RELEASE "5.4.38-gentoo+"
